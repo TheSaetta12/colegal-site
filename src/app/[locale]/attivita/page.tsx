@@ -1,6 +1,10 @@
-import { useTranslations } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
 import Image from "next/image";
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
 
 const ambitiSections = [
   { key: "impresa", id: "dir-imp" },
@@ -11,8 +15,10 @@ const ambitiSections = [
   { key: "privacy", id: "privacy" },
 ];
 
-export default function AttivitaPage() {
-  const t = useTranslations();
+export default async function AttivitaPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale });
 
   return (
     <div>

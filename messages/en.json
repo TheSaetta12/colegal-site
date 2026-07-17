@@ -17,9 +17,13 @@
     "telefono": "(+39) 055.289321"
   },
   "hero": {
-    "title": "COLEGAL\nLAW FIRM",
+    "title": "LAW FIRM\nCOLEGAL",
     "subtitle": "CORPORATE LAW\nEXPERTISE AND COLLABORATION\nIN ONE WORD, COLEGAL",
-    "cta": "VIEW MORE"
+    "cta": "VIEW MORE",
+    "super1": "LAW FIRM",
+    "title1": "COLEGAL",
+    "super2": "CORPORATE LAW",
+    "subtitle2": "EXPERTISE AND COLLABORATION\nIN ONE WORD, COLEGAL"
   },
   "home": {
     "studioTitle": "OUR FIRM",
@@ -45,58 +49,246 @@
     "title": "Practice Areas",
     "impresa": {
       "title": "Corporate and Commercial Law",
-      "content": "Maximum attention is paid to the needs of businesses. We assist entrepreneurial realities from their establishment, through the choice of corporate form and preparation of the articles of association, bylaws and shareholders' agreements, and in all fundamental decisions concerning corporate life."
+      "content": "Maximum attention is paid to the needs of businesses. We assist entrepreneurial realities from their establishment, through the choice of corporate form and preparation of the articles of association, bylaws and shareholders' agreements, and in all fundamental decisions concerning corporate life, in relations between shareholders or with the company and in the management of any litigation.",
+      "content2": "The firm supports companies in decisions useful to strengthen their position in the national and international market, handling every negotiation aspect with third parties and providing for the preparation and drafting of contractual types of interest. It regularly assists clients in the creation and management of commercial networks, in the choice of means of payment, contractual, insurance and bank guarantees, in resolving competition issues and parallel imports.",
+      "content3": "The firm assists its clients in transactions involving the transfer and contribution of companies and/or business branches, joint ventures, acquisition and sale of shareholdings, accompanying them from the preliminary negotiation stages, drafting and signing confidentiality agreements, letters of intent, term sheets, then proceeding with the due diligence and transmission of the relevant report, up to the final stage of the operations, with the negotiation, drafting and execution of contractual documents relating to the closing.",
+      "focus": "We assist clients in the negotiation and drafting of national and international commercial and business contracts. In particular, the firm's professionals specialise in the drafting and negotiation of distribution, agency, franchising, joint venture and collaboration, production and outsourcing, promotion and advertising, consultancy and service contracts, supply and general terms and conditions of sale."
     },
     "industriale": {
       "title": "Industrial and Intellectual Property Law",
-      "content": "Our strength is the ability to combine commercial law and business contracting consultancy with the enhancement and protection of intellectual property (patents, trademarks, industrial designs, copyright, trade secrets, etc.)."
+      "content": "Our strength is the ability to combine commercial law and business contracting consultancy with the enhancement and protection of intellectual property (patents, trademarks, industrial designs, copyright, trade secrets, etc.). It is of fundamental importance to help companies understand the potential of their works of ingenuity, support them in the creation and registration of their intangible assets, contribute to conscious brand and invention management, and prepare effective intellectual property protection through judicial and extrajudicial actions, with territorial (including customs) and internet monitoring.",
+      "content2": "In this area, the firm assists clients, particularly in the fashion, eyewear, cosmetics, medical-diagnostic, new technology, agri-food sectors. Inventors, designers, consultants, professionals and companies are assisted in the promotion, exploitation and protection of their creative, scientific and innovative activity, identifying and defining licence, confidentiality, consultancy, research and development, management and sponsorship agreements.",
+      "focus": "We offer assistance in the protection of all intellectual property, through judicial (ordinary and interim) and extrajudicial actions, with territorial and internet monitoring. We manage the preparation and submission of the Application For Action (AFA) for customs protection of intellectual property rights, follow the approval procedure and manage relations with the Customs and Monopolies Agency regarding the submitted and accepted application. We assist and represent clients before national and international organisations (e.g. WIPO) in disputes relating to the assignment and use of Domain Names.",
+      "focus2": "We directly handle the registration of trademarks and designs, and indirectly (through correspondents and collaborations with national and international agents) handle patent registrations at national, European and international level – carrying out preliminary checks for compliance with legal requirements and prior art searches, checking that the corresponding domain name (or internet address) is still available, and identifying the classes of goods/services for which trademark registration is sought. We manage annotations or recordings of facts concerning the life of a trademark or design."
     },
     "immobiliare": {
       "title": "Real Estate and Construction Law",
-      "content": "The firm's professionals provide consultancy and assistance in the management of real estate assets, in operations concerning acquisition, sale, enhancement and enjoyment of residential, commercial or hotel properties."
+      "content": "The firm's professionals provide consultancy and assistance in the management of real estate assets, in operations concerning acquisition, sale, enhancement and enjoyment of residential, commercial or hotel properties, and in the construction of new buildings or renovation of existing ones.",
+      "content2": "The firm assists clients in all phases relating to the acquisition or sale of properties, including negotiations, preparation and sending of expressions of interest or purchase proposals, drafting and execution of preliminary sale agreements and final contracts, carrying out all necessary preliminary fulfilments.",
+      "content3": "A specialisation has been developed in international procurement and construction, assisting clients from the initial stages of tender discussion and design, continuing with the evaluation and negotiation of the works contract and related negotiation instruments (guarantees, means of payment, etc.), as well as in managing issues during the execution of the works up to testing and verification of defects or non-conformities.",
+      "focus": "The client is assisted in the management or acquisition of real estate assets through the negotiation and execution of residential, commercial or hotel lease agreements, leasing agreements, loan for use agreements, as well as through consultancy, assistance and judicial defence in any disputes concerning their life and enjoyment. Due diligence on property titles and marketability of the asset is also carried out, along with opinions on suitable title insurance, management of practical aspects (e.g. opening bank accounts for foreign clients, relations with professionals and technicians), and analysis of tax aspects related to various types of real estate investments (individuals or legal entities).",
+      "focus2": "The firm offers its assistance and consultancy through the preparation of specific works contracts according to the client's needs, or by using international standard contracts (e.g. FIDIC, NEC, JCT, VOB). Contractual documents accompanying the works are also commonly negotiated, including bonds, parent company guarantees, collateral warranties, pre-construction service agreements, letters of intent (binding/non-binding), framework agreements, joint ventures and temporary business associations."
     },
     "bancario": {
       "title": "Banking Law",
-      "content": "The firm's professionals provide assistance, consultancy and defense for clients, both private individuals and bankruptcy proceedings and credit institutions."
+      "content": "The firm's professionals provide assistance, consultancy and defense for clients, both private individuals and bankruptcy proceedings and credit institutions, in litigation relating to banking relationships and contracts such as current accounts, mortgages, leasing and derivative products, sureties, payments, repayment plans and liability of financial intermediaries for breach of information duties or inadequate performance of services.",
+      "focus": "Assistance and consultancy to private individuals in dealings with credit institutions in order to obtain optimal conditions in the execution or renegotiation of banking law contracts, in litigation concerning actions for ineffectiveness, nullity and simulation of acts and payments, ordinary and bankruptcy clawback actions, enforcement or challenge of sureties, bank guarantees, pledges and mortgages, claims for damages for liability of financial intermediaries."
     },
     "terzosettore": {
       "title": "Third Sector – Non Profit",
-      "content": "The firm assists non-profit entities guiding them from their establishment. In this particular historical moment we assist non-profit entities in the path initiated by the Third Sector Reform."
+      "content": "The firm assists non-profit entities guiding them from their establishment. In this particular historical moment we assist non-profit entities in the path initiated by the Third Sector Reform.",
+      "focus": "We assist Associations in evaluating the opportunities offered by the new Third Sector Code and in adapting the Statute to the requirements of the Third Sector Code where necessary."
     },
     "privacy": {
       "title": "Privacy",
-      "content": "The firm provides consultancy on personal data processing and assists the client in adapting data processing to current regulations."
+      "content": "The firm provides consultancy on personal data processing and assists the client in adapting data processing to current regulations (Legislative Decree 196/03 and General Data Protection Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016) and in subsequent compliance.",
+      "focus": "Examination of processing carried out and preparation of documentation concerning personal data (privacy notices and consent forms, appointment letters, record of processing activities), verification and preparation of procedures for data subjects to exercise their right of access, as well as procedures for data breach scenarios and preparation of the breach notification model. The firm also provides ongoing assistance to the client even after the adaptation to privacy regulations has been completed."
     }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy (EU)",
+    "updated": "This cookie policy was last updated on 2 July 2022 and applies to citizens and legal permanent residents of the European Economic Area and Switzerland.",
+    "s1Heading": "1. Introduction",
+    "s1Content": "Our website, https://studiocolegal.it (hereinafter: \"the website\") uses cookies and other related technologies (for convenience all technologies are referred to as \"cookies\"). Cookies are also placed by third parties we have engaged. In the document below we inform you about the use of cookies on our website.",
+    "s2Heading": "2. What are cookies?",
+    "s2Content": "A cookie is a simple file sent along with pages of this website and stored by your browser on the hard drive of your computer or other device. The information collected therein may be sent back to our servers or to third-party servers during your next visit.",
+    "s3Heading": "3. What are scripts?",
+    "s3Content": "A script is a piece of code used to make our website function properly and interactively. This code is executed on our servers or on your device.",
+    "s4Heading": "4. What is a web beacon?",
+    "s4Content": "A web beacon (or pixel tag) is a small, invisible piece of text or image on a website that is used to monitor website traffic. To do this, various data about you is stored using web beacons.",
+    "s5Heading": "5. Cookies",
+    "s5Sub1Heading": "5.1 Technical or functional cookies",
+    "s5Sub1Content": "Some cookies ensure that certain parts of the website work properly and that your user preferences remain known. By placing functional cookies, we make it easier for you to visit our website. This way, you do not need to repeatedly enter the same information when visiting our website. We may place these cookies without your consent.",
+    "s5Sub2Heading": "5.2 Marketing/tracking cookies",
+    "s5Sub2Content": "Marketing/tracking cookies are cookies or any other form of local storage, used to create user profiles to display advertising or to track the user on this website or across several websites for similar marketing purposes.",
+    "s6Heading": "6. Placed cookies",
+    "tableColNome": "Name",
+    "tableColScadenza": "Expiry",
+    "tableColFunzione": "Function",
+    "tComplianz": "Complianz (Functional)",
+    "tSalvaPreferenze": "Store cookie consent preferences",
+    "tRegistraId": "Store accepted cookie policy ID",
+    "tBannerDismissed": "Store if the cookie banner has been dismissed",
+    "tGoogleFonts": "Google Fonts (Advertising/Tracking)",
+    "tRichiediIp": "Request user IP address",
+    "tYouTube": "YouTube (Advertising/Tracking, Functional)",
+    "tSalvaPosizione": "Store location data",
+    "tStoreInteraction": "Store and track interaction",
+    "tSalvaPreferenzeUtente": "Store user preferences",
+    "tFunzionale": "Functional",
+    "tLarghezzaBanda": "Estimate bandwidth",
+    "days365": "365 days",
+    "nessuno": "none",
+    "sessione": "session",
+    "months8": "8 months",
+    "months6": "6 months",
+    "s7Heading": "7. Consent",
+    "s7Content": "When you visit our website for the first time, we will show a pop-up with an explanation about cookies. As soon as you click \"Save preferences\", you give us permission to use the categories of cookies and plugins you selected as described in this cookie statement. You can disable cookies via your browser, but please note that our website may no longer work properly.",
+    "s8Heading": "8. Enabling/disabling and deleting cookies",
+    "s8Content": "You can use your browser to automatically or manually delete cookies. You can also specify that certain cookies may not be placed. Another option is to change your browser settings so that you receive a message each time a cookie is placed. For more information about these options, please refer to the instructions in your browser's Help section. Please note that our website may not work properly if all cookies are disabled. If you delete cookies in your browser, they will be placed again after your consent when you visit our website again.",
+    "s9Heading": "9. Your rights with respect to personal data",
+    "s9Intro": "You have the following rights with respect to your personal data:",
+    "s9Li1": "You have the right to know why your personal data is needed, what will happen to it, and how long it will be retained.",
+    "s9Li2": "Right of access: You have the right to access your personal data that we hold.",
+    "s9Li3": "Right to rectification: You have the right to complete, correct, delete or block your personal data whenever you wish.",
+    "s9Li4": "If you give us your consent to process your data, you have the right to revoke that consent and to have your personal data deleted.",
+    "s9Li5": "Right to transfer your data: You have the right to request all your data from the controller and transfer it in its entirety to another controller.",
+    "s9Li6": "Right to object: You have the right to object to the processing of your data. We will comply with this, unless there are valid grounds for processing.",
+    "s9Outro": "To exercise these rights, please contact us. Please refer to the contact details at the bottom of this Cookie Policy. If you have a complaint about how we handle your data, we would like to hear from you, but you also have the right to lodge a complaint with the supervisory authority (the Data Protection Authority).",
+    "s10Heading": "10. Contact details",
+    "s10Intro": "For questions and/or comments about our Cookie Policy and this statement, please contact us using the following contact details:",
+    "s10Nome": "Studio CoLegal",
+    "s10Indirizzo": "Piazza Madonna degli Aldobrandini, n. 8 – Florence, Italy",
+    "s10Sito": "Website: https://studiocolegal.it",
+    "s10Email": "Email: info@studiocolegal.it",
+    "s10Telefono": "Phone: 055.289321",
+    "s10Sync": "This cookie policy was synchronised with cookiedatabase.org on 2 July 2022."
   },
   "professionisti": {
     "title": "The Professionals",
+    "areeTitle": "Areas of Expertise",
+    "settoriTitle": "Consulting Sectors",
+    "settoriIntro": "Provides consultancy to companies operating in the following sectors:",
+    "contattiDesc": "For more information or to request an appointment.",
     "pietro": {
       "name": "Avv. Pietro Messina",
       "role": "Lawyer",
       "competenze": "Areas of expertise: • Corporate and Commercial Law • Industrial and Intellectual Property Law • Real Estate and Construction Law • Banking Law",
       "bio": "Member of the Florence Bar since 2008. He holds a PhD in Comparative Private Law from the University of Florence and a Master in Construction Law & Dispute Resolution from King's College London.",
-      "aree": ["Corporate and Commercial Law", "Industrial and Intellectual Property Law", "Real Estate and Construction Law", "Banking Law"]
+      "aree": [
+        "Corporate and Commercial Law",
+        "Industrial and Intellectual Property Law",
+        "Real Estate and Construction Law",
+        "Banking Law"
+      ],
+      "areeDettaglio": [
+        {
+          "titolo": "Corporate and Commercial Law",
+          "descrizione": "Negotiation and drafting of national and international commercial and business contracts, including distribution, agency, franchising, joint venture and collaboration, production and outsourcing, promotion and advertising, consultancy and service contracts, supply and general terms and conditions of sale, transfer and lease of business, commercial leases. Assistance in the creation and management of commercial networks, choice of Incoterms, means of payment and contractual, insurance and bank guarantees, resolving competition issues and parallel imports."
+        },
+        {
+          "titolo": "Industrial and Intellectual Property Law",
+          "descrizione": "Consultancy in the valorisation, promotion and protection of intellectual property (patents, trademarks, industrial designs, copyright, know-how and trade secrets). Support and assistance for creative, scientific and innovative activities, with preparation of licence, confidentiality, consultancy, research and development, collaboration, management and sponsorship agreements. Assistance both in the creation and development of intangible assets and in defence against counterfeiting and unfair competition. Registration and protection of intellectual property through judicial and extrajudicial actions, with territorial and internet monitoring."
+        },
+        {
+          "titolo": "Real Estate and Construction Law",
+          "descrizione": "Experience and specialisation in international real estate transactions and construction projects. Consultancy for participation and management of works and maintenance contracts. Assistance in the preparatory, executive and post-execution phases and contract testing. Drafting and negotiation of specific works contracts or amendments to international standard contracts (e.g. FIDIC, NEC, JCT, VOB), as well as related contractual documents such as bonds, parent company guarantees, collateral warranties, pre-construction service agreements, letters of intent (binding/non-binding), framework agreements, joint ventures and temporary business associations."
+        },
+        {
+          "titolo": "Banking Law",
+          "descrizione": "Consultancy to credit institutions, bankruptcy trustees and private individuals in litigation relating to actions for ineffectiveness, nullity and simulation of acts and payments, ordinary and bankruptcy clawback actions, enforcement or challenge of sureties, bank guarantees, pledges and mortgages, liability of directors and shareholders, liability of financial intermediaries for breach of information duties or inadequate performance of services."
+        }
+      ],
+      "settori": [
+        "construction and building design and infrastructure",
+        "fashion",
+        "eyewear",
+        "personal care and cosmetics",
+        "medical-diagnostic",
+        "viticulture and agri-food",
+        "automotive",
+        "tourism",
+        "software and innovation"
+      ]
     },
     "orsola": {
       "name": "Avv. Orsola Papasogli Tacca",
       "role": "Lawyer",
       "competenze": "Areas of expertise: • Corporate and Commercial Law • Industrial and Intellectual Property Law • Real Estate and Construction Law • Third Sector Entities • Privacy",
-      "bio": "Member of the Florence Bar. Specialized in corporate law, intellectual property and third sector entities.",
-      "aree": ["Corporate and Commercial Law", "Industrial and Intellectual Property Law", "Real Estate and Construction Law", "Third Sector Entities", "Privacy"]
+      "bio": "Member of the Florence Bar since 2010. Specialised in corporate law, intellectual property and third sector entities.",
+      "lingue": "Languages: Italian, English and French.",
+      "aree": [
+        "Corporate and Commercial Law",
+        "Industrial and Intellectual Property Law",
+        "Real Estate and Construction Law",
+        "Third Sector Entities",
+        "Privacy"
+      ],
+      "areeDettaglio": [
+        {
+          "titolo": "Corporate and Commercial Law",
+          "descrizione": "Negotiation and drafting of business contracts, collaboration and commercial development agreements. Focus: transfer and lease of business, rent to buy of business, commercial or hotel leases, works and services contracts, agency agreements, sponsorship agreements, shop sharing agreements, legal due diligence."
+        },
+        {
+          "titolo": "Industrial and Intellectual Property Law",
+          "descrizione": "Valorisation and protection of intellectual and industrial property rights. Focus: assignment and/or licensing of industrial and intellectual property rights, confidentiality agreements, assistance to clients in administrative proceedings and litigation for the protection of industrial and intellectual property rights; preparation and submission of applications for customs protection (AFA applications) aimed at combating counterfeiting of trademarks and patents; filing and renewal of trademarks at national, European and international level."
+        },
+        {
+          "titolo": "Real Estate and Construction Law",
+          "descrizione": "Acquisition and management of real estate properties. Focus: sale and purchase agreements, lease agreements, rent to buy of properties, works contracts, creation and modification of easements."
+        },
+        {
+          "titolo": "Third Sector Entities",
+          "descrizione": "Adaptation of the entity to the provisions of the new Third Sector Code (Legislative Decree 3 July 2017 No. 117). Focus: statutory amendments."
+        },
+        {
+          "titolo": "Privacy",
+          "descrizione": "Compliance with the requirements of Legislative Decree 196/03 and the General Data Protection Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016."
+        }
+      ],
+      "settori": [
+        "agriculture and wine-growing",
+        "plant and equipment certification",
+        "communication and public relations",
+        "building and construction",
+        "fashion",
+        "no profit",
+        "production of raw materials for construction chemicals"
+      ]
     },
     "ascanio": {
       "name": "Avv. Ascanio Ruschi",
       "role": "Lawyer",
       "competenze": "Areas of expertise: • Corporate and Commercial Law • Industrial and Intellectual Property Law • Real Estate Law • Third Sector Entities • Wine Law",
-      "bio": "Member of the Florence Bar. Specialized in corporate law, intellectual property and wine law.",
-      "aree": ["Corporate and Commercial Law", "Industrial and Intellectual Property Law", "Real Estate Law", "Third Sector Entities", "Wine Law"]
+      "bio": "Member of the Florence Bar since 2009. He holds a Master in International Contract Law from Il Sole24ore and attended the Advanced Course in Wine Law at the University of Florence.",
+      "lingue": "Languages: Italian and English.",
+      "aree": [
+        "Corporate and Commercial Law",
+        "Industrial and Intellectual Property Law",
+        "Real Estate Law",
+        "Third Sector Entities",
+        "Wine Law"
+      ],
+      "areeDettaglio": [
+        {
+          "titolo": "Corporate and Commercial Law",
+          "descrizione": "Negotiation and drafting of business contracts, collaboration and commercial development agreements. Focus: transfer and lease of business, rent to buy of business, commercial or hotel leases, works and services contracts, agency agreements, sponsorship agreements, shop sharing agreements."
+        },
+        {
+          "titolo": "Industrial and Intellectual Property Law",
+          "descrizione": "Valorisation and protection of intellectual and industrial property rights. Focus: assignment and/or licensing of industrial and intellectual property rights, confidentiality agreements, assistance to clients in administrative proceedings and litigation for the protection of industrial and intellectual property rights; preparation and submission of applications for customs protection (AFA applications) aimed at combating counterfeiting of trademarks and patents; filing and renewal of trademarks at national, European and international level."
+        },
+        {
+          "titolo": "Real Estate Law",
+          "descrizione": "Acquisition and management of real estate properties. Real estate due diligence and verification of the marketability of the property. Negotiation of the sale and purchase agreement. Focus: sale and purchase agreements, lease agreements, rent to buy of properties, works contracts, creation and modification of easements."
+        },
+        {
+          "titolo": "Third Sector Entities",
+          "descrizione": "Adaptation of the entity to the provisions of the new Third Sector Code (Legislative Decree 3 July 2017 No. 117). Focus: statutory amendments."
+        },
+        {
+          "titolo": "Wine Law",
+          "descrizione": ""
+        }
+      ],
+      "settori": [
+        "agriculture and wine-growing",
+        "communication and public relations",
+        "information technology",
+        "event organisation",
+        "fashion",
+        "no profit"
+      ]
     }
   },
   "studio": {
     "title": "About Us",
     "heading": "CoLegal Firm",
     "content": "Studio CoLegal was founded in early 2018 by three professionals who, after gaining a decade of experience in prestigious Florentine law firms, decided to create an integrated structure to offer legal assistance and consultancy in corporate, commercial, non-profit and personal law, nationally and internationally, with the utmost attention to quality and efficiency.",
-    "content2": "The firm's professionals consider the relationship of trust with clients and the deep understanding of their interests and needs to be essential. The role of the lawyer, in our vision, is to collaborate alongside the client, support them with their expertise, and share and adopt the best choices with them. Understanding, expertise and collaboration are the essential aspects on which the firm bases the Professional/Client relationship: Studio CoLegal indeed."
+    "content2": "The firm's professionals consider the relationship of trust with clients and the deep understanding of their interests and needs to be essential. The role of the lawyer, in our vision, is to collaborate alongside the client, support them with their expertise, and share and adopt the best choices with them. Understanding, expertise and collaboration are the essential aspects on which the firm bases the Professional/Client relationship: Studio CoLegal indeed.",
+    "email": "E-MAIL",
+    "telephone": "TELEPHONE",
+    "followUs": "FOLLOW US"
   },
   "contatti": {
     "title": "Contact",
@@ -133,5 +325,69 @@
     "nega": "Reject",
     "preferenze": "View preferences",
     "salva": "Save preferences"
+  },
+  "getQuote": {
+    "calcolatore": "COST CALCULATOR",
+    "title": "Request a Quote for Your Taxes",
+    "subtitle": "Free Tax Calculator",
+    "tariffaBase": "BASE RATE FROM",
+    "baseDesc": "The client and the lawyer agree on the hourly rate before starting the case.",
+    "tariffaStandard": "STANDARD RATE FROM",
+    "standardDesc": "A fixed fee is offered if the case is relatively simple or routine.",
+    "piuRichiesto": "Most Popular",
+    "tariffaPremium": "PREMIUM RATE FROM",
+    "premiumDesc": "We will formally update you on the status of costs, both incurred and estimated, on a monthly basis."
+  },
+  "costCalculator": {
+    "inviaDettagli": "Submit details",
+    "settore": "Industry",
+    "seleziona": "Select...",
+    "energia": "Energy",
+    "bancarioFinanziario": "Banking and Finance",
+    "alimentareAgricoloCosmetico": "Food, Agriculture and Cosmetics",
+    "sanitarioFarmaceutico": "Healthcare and Pharmaceutical",
+    "tecnologiaInformatica": "Information Technology",
+    "mediaTelecomunicazioni": "Media and Telecommunications",
+    "venditaDettaglio": "Retail and Consumer Goods",
+    "nLavoratori": "Approximate number of workers",
+    "definisciReddito": "Define business income",
+    "inserisciReddito": "Enter your taxable income",
+    "selezionaAnno": "Select the tax year",
+    "residente": "Resident",
+    "si": "Yes",
+    "no": "No",
+    "totale": "Total",
+    "avanti": "Next",
+    "inserisciDati": "Enter your details",
+    "nome": "Name *",
+    "email": "Email *",
+    "telefono": "Phone",
+    "indirizzo": "Address",
+    "dataPreferita": "Preferred service date",
+    "orarioPreferito": "Preferred service time",
+    "messaggio": "Message",
+    "indietro": "← Back",
+    "inviaRichiesta": "Submit Request"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "s1Heading": "Information on the Processing of Personal Data",
+    "s1P1": "of users who consult the website of Studio CoLegal Avvocati Firenze by lawyers Pietro Messina, Orsola Papàsogli Tacca, Ascanio Ruschi pursuant to Article 13 of Regulation (EU) 2016/679.",
+    "s1P2": "Pursuant to Regulation (EU) 2016/679 (hereinafter \"Regulation\"), this page describes the methods of processing personal data of users (hereinafter \"Users\") who consult the website of Studio CoLegal Avvocati Firenze by lawyers Pietro Messina, Orsola Papàsogli Tacca and Ascanio Ruschi (hereinafter \"Studio CoLegal\") accessible at the following address: www.studiocolegal.it.",
+    "s2P1": "The website www.studiocolegal.it has been developed to provide information on the Professionals who make up Studio CoLegal, on the types of activities and services provided, as well as to give interested parties the opportunity to send requests for information, including for the purpose of possible professional assignments.",
+    "s2P2": "The site also includes a section with an email address to which Users may voluntarily send their application if interested in collaborating with Studio CoLegal.",
+    "s3Heading": "Data Controller",
+    "s3P1": "This information is provided by the Data Controller under joint controllership (lawyers Pietro Messina, Orsola Papasogli Tacca and Ascanio Ruschi with office in Florence, Piazza Madonna degli Aldobrandini, n. 8, email: info@studiocolegal.it; tel: 055.289321) only for the website www.studiocolegal.it and not for other websites that may be consulted.",
+    "s3P2": "To exercise the rights provided for in Articles 15 et seq. of the GDPR, Users may contact the Data Controller by sending an email to: info@studiocolegal.it. The communication must include the name, address, email address and/or telephone numbers, in order to allow proper handling of the request.",
+    "s4Heading": "Personal Data Collected",
+    "s4Intro": "The personal data collected by the Data Controller are:",
+    "s4Li1": "technical browsing data, such as: browser used, time and place of access, type of device and operating system used to visit the site, time spent on the site, number and sequence of pages visited within the site; such data are not collected to identify or record the data subject, but indirectly, through association with other data collected by the Controller, could allow your identification;",
+    "s4Li2": "identification and contact data of Users (e.g. name and surname, email address, telephone number) included in communications and requests sent to Studio CoLegal, as well as any further data necessary to respond to and fulfill the specific requests of Users.",
+    "s4Outro": "Users shall only communicate data that is up-to-date, relevant and not exceeding the specific purposes of the processing. Should Users need to communicate third-party data, they must comply with legal obligations regarding the protection of personal data and, in particular, appropriately and promptly inform third parties of the communication of their data to the Data Controller, as well as of the characteristics of the processing by the Data Controller itself. Any unnecessary data will be immediately deleted or anonymized. Data is collected at the time of access and stay on the site or, subsequently, as provided by the data subject.",
+    "s5Heading": "Purpose of Processing Personal Data",
+    "s5Intro": "The processing of personal data is aimed at:",
+    "s5Li1": "ensuring access to the website and improving the browsing experience;",
+    "s5Li2": "allowing the sending of information requests directed to individual professionals of Studio CoLegal, including for the purpose of possible professional assignments. The Data will be processed to respond to requests that Users may send to the contacts available on the Site: to this end, Users must provide their contact details as, otherwise, Studio CoLegal will not be able to respond to them.",
+    "s5Li3": "evaluating any applications received. The Site includes a section with an email address to which Users interested in collaborating with Studio CoLegal may voluntarily send their application. In this case, personal data is processed exclusively to evaluate the application received. For the processing of such personal data, the relevant information pursuant to Art. 13 GDPR is provided."
   }
 }

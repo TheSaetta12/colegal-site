@@ -17,8 +17,8 @@ export default function HeroSlider() {
   }, [nextSlide]);
 
   const slides = [
-    { super: "STUDIO LEGALE", main: "COLEGAL" },
-    { super: "CORPORATE LAW", main: "COMPETENZA E COLLABORAZIONE IN UNA PAROLA, COLEGAL" },
+    { super: t("super1"), main: t("title1") },
+    { super: t("super2"), main: t("subtitle2") },
   ];
 
   return (
@@ -30,38 +30,38 @@ export default function HeroSlider() {
           background: `url('/images/hero-bg.jpg') center top/cover no-repeat`,
         }}
       />
-      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-32 lg:py-40">
-        <div className="relative min-h-[20rem]">
+      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-28 lg:py-36">
+        <div className="relative min-h-[26rem]">
           {slides.map((slide, i) => (
             <div
               key={i}
-              className={`transition-all duration-700 ${
-                i === currentSlide
-                  ? "opacity-100 visible relative"
-                  : "opacity-0 invisible absolute inset-0"
+              className={`transition-all duration-700 absolute inset-0 ${
+                i === currentSlide ? "opacity-100 visible" : "opacity-0 invisible"
               }`}
               aria-hidden={i !== currentSlide}
             >
-              <div className="max-w-3xl">
-                {slide.super && (
-                  <div className="text-accent text-sm lg:text-base font-semibold tracking-[0.15em] uppercase mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
-                    {slide.super}
-                  </div>
-                )}
-                <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-serif text-white leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] whitespace-pre-line">
-                  {slide.main}
-                </h1>
+              <div className="max-w-3xl flex flex-col justify-center h-full">
+                <div>
+                  {slide.super && (
+                    <div className="text-accent text-sm lg:text-base font-semibold tracking-[0.15em] uppercase mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
+                      {slide.super}
+                    </div>
+                  )}
+                  <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-serif text-white leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] whitespace-pre-line">
+                    {slide.main}
+                  </h1>
+                </div>
+                <div className="mt-12">
+                  <a
+                    href="#about"
+                    className="inline-block text-accent text-xs font-semibold tracking-[0.2em] uppercase hover:text-accent-light transition border-b border-accent pb-1 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
+                  >
+                    {t("cta")}
+                  </a>
+                </div>
               </div>
             </div>
           ))}
-        </div>
-        <div className="mt-10 relative z-20">
-          <a
-            href="#about"
-            className="inline-block text-accent text-xs font-semibold tracking-[0.2em] uppercase hover:text-accent-light transition border-b border-accent pb-1 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
-          >
-            {t("cta")}
-          </a>
         </div>
       </div>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-3">

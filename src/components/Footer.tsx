@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           <div>
-            <img src="/images/logo-white.png" alt="Studio CoLegal" className="h-10 w-auto mb-5" />
+            <img src="/images/logo-white.png" alt="Studio CoLegal" className="h-12 lg:h-16 w-auto mb-5" />
             <div className="flex items-start gap-2 mb-1">
               <svg className="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />

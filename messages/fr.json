@@ -19,7 +19,11 @@
   "hero": {
     "title": "CABINET D'AVOCATS\nCOLEGAL",
     "subtitle": "DROIT DES AFFAIRES\nCOMPÉTENCE ET COLLABORATION\nEN UN MOT, COLEGAL",
-    "cta": "VOIR PLUS"
+    "cta": "VOIR PLUS",
+    "super1": "CABINET D'AVOCATS",
+    "title1": "COLEGAL",
+    "super2": "DROIT DES AFFAIRES",
+    "subtitle2": "COMPÉTENCE ET COLLABORATION\nEN UN MOT, COLEGAL"
   },
   "home": {
     "studioTitle": "NOTRE CABINET",
@@ -45,58 +49,246 @@
     "title": "Domaines d'Activité",
     "impresa": {
       "title": "Droit des Affaires et Commercial",
-      "content": "Une attention maximale est portée aux besoins des entreprises. Nous accompagnons les réalités entrepreneuriales dès leur constitution, par le choix de la forme sociale et la préparation des statuts, règlements et pactes d'actionnaires, et dans toutes les décisions fondamentales concernant la vie sociale."
+      "content": "Une attention maximale est portée aux besoins des entreprises. Nous accompagnons les réalités entrepreneuriales dès leur constitution, par le choix de la forme sociale et la préparation des statuts, règlements et pactes d'actionnaires, et dans toutes les décisions fondamentales concernant la vie sociale, dans les relations entre associés ou avec la société et dans la gestion des éventuels contentieux.",
+      "content2": "Le cabinet soutient les entreprises dans les décisions utiles pour renforcer leur position sur le marché national et international, en gérant chaque aspect de la négociation avec les tiers et en assurant la préparation et la rédaction des types contractuels d'intérêt. Il assiste régulièrement la clientèle dans la création et la gestion de réseaux commerciaux, dans le choix des moyens de paiement, des garanties contractuelles, d'assurance et bancaires, dans la résolution de problèmes de concurrence et d'importations parallèles.",
+      "content3": "Le cabinet assiste sa clientèle dans les opérations de transfert et d'apport d'entreprise et/ou de branches d'entreprise, de joint-venture, d'acquisition et de cession de participations, en l'accompagnant dès les phases préliminaires de négociation, de rédaction et de signature d'accords de confidentialité, de lettres d'intention, de term sheet, puis en procédant à la due diligence avec transmission du rapport correspondant, jusqu'à la phase finale des opérations, avec la négociation, la rédaction et la signature des documents contractuels relatifs au closing.",
+      "focus": "Nous accompagnons la clientèle dans la négociation et la rédaction de contrats commerciaux et d'affaires, nationaux et internationaux. En particulier, les professionnels du cabinet sont spécialisés dans la rédaction et la négociation de contrats de distribution, d'agence, de franchise, de joint-venture et de collaboration, de production et d'externalisation, de promotion et de publicité, de conseil et de marchés de services, de fourniture et de conditions générales de vente."
     },
     "industriale": {
       "title": "Droit Industriel et Propriété Intellectuelle",
-      "content": "Notre point fort est la capacité de combiner le conseil en droit commercial et en contrats d'entreprise avec la valorisation et la protection de la propriété intellectuelle (brevets, marques, dessins industriels, droit d'auteur, secrets industriels, etc.)."
+      "content": "Notre point fort est la capacité de combiner le conseil en droit commercial et en contrats d'entreprise avec la valorisation et la protection de la propriété intellectuelle (brevets, marques, dessins industriels, droit d'auteur, secrets industriels, etc.). Il est d'une importance fondamentale de pouvoir aider les entreprises à comprendre le potentiel des œuvres de leur ingéniosité, les soutenir dans la création et l'enregistrement de leurs actifs immatériels, contribuer à une gestion consciente des marques et des inventions, et préparer une protection efficace de la propriété intellectuelle par des actions judiciaires et extrajudiciaires, avec un contrôle territorial (y compris douanier) et sur internet.",
+      "content2": "Dans ce domaine, le cabinet accompagne la clientèle, en particulier dans les secteurs de la mode, de la lunetterie, des cosmétiques, du médico-diagnostique, des nouvelles technologies, de l'agroalimentaire. Inventeurs, stylistes, consultants, professionnels et entreprises sont assistés dans la promotion, l'exploitation et la protection de leur activité créative, scientifique et innovante, en identifiant et en définissant des contrats de licence, de confidentialité, de conseil, de recherche et développement, de gestion et de parrainage.",
+      "focus": "Nous offrons une assistance dans la protection de toute propriété intellectuelle, par des actions judiciaires (ordinaires et conservatoires) et extrajudiciaires, avec un contrôle territorial et sur internet. Nous assurons la préparation et la présentation de la Demande d'intervention douanière (Application For Action – AFA) pour la protection des droits de propriété intellectuelle, nous suivons la procédure d'approbation et gérons les relations avec l'Agence des Douanes et des Monopoles concernant la demande présentée et acceptée. Nous assistons et représentons les clients devant des organisations nationales et internationales (ex. OMPI) dans les litiges relatifs à l'attribution et à l'utilisation des noms de domaine.",
+      "focus2": "Nous assurons directement l'enregistrement des marques et des dessins, et indirectement (par l'intermédiaire de correspondants et de collaborations avec des mandataires nationaux et internationaux) celui des brevets, au niveau national, européen et international – en effectuant les contrôles préliminaires de conformité aux prescriptions légales et les recherches d'antériorité, en vérifiant que le nom de domaine (ou adresse Internet) correspondant est encore libre, et en identifiant les classes de produits/services pour lesquelles l'enregistrement de la marque est demandé. Nous gérons les annotations ou transcriptions de faits concernant la vie d'une marque et d'un dessin."
     },
     "immobiliare": {
       "title": "Droit Immobilier et de la Construction",
-      "content": "Les professionnels du cabinet fournissent des conseils et une assistance dans la gestion des patrimoines immobiliers, dans les opérations concernant l'acquisition, la vente, la valorisation et la jouissance de biens à usage résidentiel, commercial ou hôtelier."
+      "content": "Les professionnels du cabinet fournissent des conseils et une assistance dans la gestion des patrimoines immobiliers, dans les opérations concernant l'acquisition, la vente, la valorisation et la jouissance de biens à usage résidentiel, commercial ou hôtelier, et dans la réalisation de nouvelles constructions ou la rénovation de constructions existantes.",
+      "content2": "Le cabinet assiste les clients dans toutes les phases relatives à l'acquisition ou à la vente de biens immobiliers, donc dans les négociations, la préparation et l'envoi de manifestations d'intérêt ou d'offres d'achat, la rédaction et la signature de contrats préliminaires de vente et de contrats définitifs, en effectuant tout type d'accomplissement préalable.",
+      "content3": "Une spécialisation a été développée en matière de marchés et de constructions internationales, accompagnant la clientèle dès les phases initiales de discussion d'un marché et de conception, en poursuivant par l'évaluation et la négociation du contrat de marché, et des instruments de négociation qui y sont liés (garanties, moyens de paiement, etc.), ainsi que dans la gestion des problèmes pendant l'exécution des travaux jusqu'à la réception et la vérification des vices ou non-conformités.",
+      "focus": "Le client est assisté dans la gestion ou l'acquisition d'actifs immobiliers par la négociation et la signature de contrats de location à usage d'habitation, commercial ou hôtelier, de contrats de leasing, de contrats de prêt à usage, ainsi que par le conseil, l'assistance et la défense judiciaire dans les éventuels litiges concernant leur vie et leur jouissance. La due diligence sur les titres de propriété des biens et sur la commercialisation du bien est également effectuée, ainsi que des avis sur les title insurance appropriés, la gestion des aspects pratiques (ex. ouverture de comptes bancaires pour clients étrangers, relations avec professionnels et techniciens), l'approfondissement des aspects fiscaux liés aux différents types d'investissements immobiliers (personnes physiques ou morales).",
+      "focus2": "Le cabinet offre son assistance et son conseil par la préparation de contrats de marché spécifiques selon les besoins du client, ou en recourant à des contrats types internationaux (ex. FIDIC, NEC, JCT, VOB). Sont également habituellement négociés des documents contractuels accompagnant le marché, parmi lesquels, par exemple, les cautions, garanties de maison mère, garanties collatérales, accords de pré-construction, lettres d'intention (contraignantes/non contraignantes), accords-cadres, joint-ventures et groupements temporaires d'entreprises."
     },
     "bancario": {
       "title": "Droit Bancaire",
-      "content": "Les professionnels du cabinet fournissent leur activité d'assistance, conseil et défense pour les clients, tant privés que procédures collectives et établissements de crédit."
+      "content": "Les professionnels du cabinet fournissent leur activité d'assistance, conseil et défense pour les clients, tant privés que procédures collectives et établissements de crédit, dans les contentieux relatifs aux relations et contrats bancaires tels que comptes courants, prêts, leasing et produits dérivés, cautions, paiements, plans de remboursement et responsabilité des intermédiaires financiers pour violation des obligations d'information ou d'exécution adéquate des prestations.",
+      "focus": "Assistance et conseil aux particuliers dans leurs relations avec les établissements de crédit afin d'obtenir des conditions optimales lors de la conclusion ou de la renégociation de contrats de droit bancaire, dans le contentieux ayant pour objet des actions en inefficacité, nullité et simulation d'actes et de paiements, actions révocatoires ordinaires et en faillite, mise en jeu ou contestation de cautions, garanties bancaires, gages et hypothèques, demandes de dommages-intérêts pour responsabilité des intermédiaires financiers."
     },
     "terzosettore": {
       "title": "Tiers Secteur – Non Profit",
-      "content": "Le cabinet assiste les entités à but non lucratif en les guidant dès leur constitution. En ce moment historique particulier, nous assistons les entités à but non lucratif dans le chemin initié par la Réforme du Tiers Secteur."
+      "content": "Le cabinet assiste les entités à but non lucratif en les guidant dès leur constitution. En ce moment historique particulier, nous assistons les entités à but non lucratif dans le chemin initié par la Réforme du Tiers Secteur.",
+      "focus": "Nous accompagnons les Associations dans l'évaluation des opportunités offertes par le nouveau Code du Tiers Secteur et dans l'adaptation des Statuts aux prescriptions du Code du Tiers Secteur si nécessaire."
     },
     "privacy": {
       "title": "Confidentialité",
-      "content": "Le cabinet fournit des conseils en matière de traitement des données personnelles et assiste le client dans l'adaptation du traitement des données à la réglementation en vigueur."
+      "content": "Le cabinet fournit des conseils en matière de traitement des données personnelles et assiste le client dans l'adaptation du traitement des données à la réglementation en vigueur (Décret législatif 196/03 et Règlement général sur la protection des données (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016) et dans la conformité ultérieure.",
+      "focus": "Examen des traitements effectués et préparation de la documentation relative aux données personnelles (formulaires d'information et de recueil du consentement au traitement des données, lettres de mission et de nomination, registre des traitements), vérification et mise en place des procédures pour l'exercice du droit d'accès par les personnes concernées, ainsi que des procédures en cas de violation de données et préparation du modèle de notification de violation. Le cabinet fournit également une assistance continue au client même après la mise en conformité avec la réglementation en matière de confidentialité."
     }
+  },
+  "cookiePolicy": {
+    "title": "Politique des cookies (UE)",
+    "updated": "Cette politique en matière de cookies a été mise à jour pour la dernière fois le 2 juillet 2022 et s'applique aux citoyens et résidents permanents légaux de l'Espace économique européen et de la Suisse.",
+    "s1Heading": "1. Introduction",
+    "s1Content": "Notre site web, https://studiocolegal.it (ci-après : \"le site web\") utilise des cookies et autres technologies connexes (pour plus de commodité, toutes ces technologies sont désignées par le terme \"cookies\"). Des cookies sont également placés par des tiers que nous avons engagés. Dans le document ci-dessous, nous vous informons de l'utilisation des cookies sur notre site web.",
+    "s2Heading": "2. Que sont les cookies ?",
+    "s2Content": "Un cookie est un fichier simple envoyé avec les pages de ce site web et stocké par votre navigateur sur le disque dur de votre ordinateur ou autre appareil. Les informations qui y sont collectées peuvent être renvoyées à nos serveurs ou à des serveurs tiers lors de votre prochaine visite.",
+    "s3Heading": "3. Que sont les scripts ?",
+    "s3Content": "Un script est un morceau de code utilisé pour faire fonctionner correctement et de manière interactive notre site web. Ce code est exécuté sur nos serveurs ou sur votre appareil.",
+    "s4Heading": "4. Qu'est-ce qu'un web beacon ?",
+    "s4Content": "Un web beacon (ou pixel tag) est un petit morceau invisible de texte ou d'image sur un site web qui est utilisé pour surveiller le trafic du site. Pour ce faire, diverses données vous concernant sont stockées à l'aide de web beacons.",
+    "s5Heading": "5. Cookies",
+    "s5Sub1Heading": "5.1 Cookies techniques ou fonctionnels",
+    "s5Sub1Content": "Certains cookies assurent le bon fonctionnement du site web et la conservation de vos préférences. En plaçant des cookies fonctionnels, nous facilitons votre visite sur notre site web. Ainsi, vous n'avez pas à saisir à plusieurs reprises les mêmes informations lors de votre visite. Nous pouvons placer ces cookies sans votre consentement.",
+    "s5Sub2Heading": "5.2 Cookies de marketing/suivi",
+    "s5Sub2Content": "Les cookies de marketing/suivi sont des cookies ou toute autre forme de stockage local, utilisés pour créer des profils d'utilisateurs afin d'afficher de la publicité ou de suivre l'utilisateur sur ce site web ou sur plusieurs sites web à des fins de marketing similaires.",
+    "s6Heading": "6. Cookies placés",
+    "tableColNome": "Nom",
+    "tableColScadenza": "Expiration",
+    "tableColFunzione": "Fonction",
+    "tComplianz": "Complianz (Fonctionnel)",
+    "tSalvaPreferenze": "Enregistrer les préférences de consentement aux cookies",
+    "tRegistraId": "Enregistrer l'ID de la politique de cookies acceptée",
+    "tBannerDismissed": "Store if the cookie banner has been dismissed",
+    "tGoogleFonts": "Google Fonts (Publicité/Suivi)",
+    "tRichiediIp": "Demander l'adresse IP de l'utilisateur",
+    "tYouTube": "YouTube (Publicité/Suivi, Fonctionnel)",
+    "tSalvaPosizione": "Enregistrer les données de localisation",
+    "tStoreInteraction": "Store and track interaction",
+    "tSalvaPreferenzeUtente": "Enregistrer les préférences de l'utilisateur",
+    "tFunzionale": "Fonctionnel",
+    "tLarghezzaBanda": "Estimer la bande passante",
+    "days365": "365 jours",
+    "nessuno": "aucun",
+    "sessione": "session",
+    "months8": "8 mois",
+    "months6": "6 mois",
+    "s7Heading": "7. Consentement",
+    "s7Content": "Lors de votre première visite sur notre site web, nous afficherons une fenêtre contextuelle avec une explication sur les cookies. Dès que vous cliquez sur \"Enregistrer les préférences\", vous nous autorisez à utiliser les catégories de cookies et de plugins que vous avez sélectionnées comme décrit dans cette déclaration relative aux cookies. Vous pouvez désactiver les cookies via votre navigateur, mais veuillez noter que notre site web pourrait ne plus fonctionner correctement.",
+    "s8Heading": "8. Activation/désactivation et suppression des cookies",
+    "s8Content": "Vous pouvez utiliser votre navigateur pour supprimer automatiquement ou manuellement les cookies. Vous pouvez également spécifier que certains cookies ne peuvent pas être placés. Une autre option consiste à modifier les paramètres de votre navigateur Internet afin de recevoir un message chaque fois qu'un cookie est placé. Pour plus d'informations sur ces options, veuillez consulter les instructions dans la section Aide de votre navigateur. N'oubliez pas que notre site pourrait ne pas fonctionner correctement si tous les cookies sont désactivés. Si vous supprimez les cookies de votre navigateur, ils seront replacés après votre consentement lorsque vous visiterez à nouveau notre site.",
+    "s9Heading": "9. Vos droits concernant les données personnelles",
+    "s9Intro": "Vous disposez des droits suivants concernant vos données personnelles :",
+    "s9Li1": "Vous avez le droit de savoir pourquoi vos données personnelles sont nécessaires, ce qu'il en adviendra et combien de temps elles seront conservées.",
+    "s9Li2": "Droit d'accès : vous avez le droit d'accéder à vos données personnelles que nous détenons.",
+    "s9Li3": "Droit de rectification : vous avez le droit de compléter, corriger, supprimer ou bloquer vos données personnelles quand vous le souhaitez.",
+    "s9Li4": "Si vous nous donnez votre consentement pour traiter vos données, vous avez le droit de retirer ce consentement et de faire supprimer vos données personnelles.",
+    "s9Li5": "Droit de transférer vos données : vous avez le droit de demander toutes vos données au responsable du traitement et de les transférer dans leur intégralité à un autre responsable du traitement.",
+    "s9Li6": "Droit d'opposition : vous avez le droit de vous opposer au traitement de vos données. Nous respecterons ce choix, sauf s'il existe des motifs valables de traitement.",
+    "s9Outro": "Pour exercer ces droits, veuillez nous contacter. Veuillez vous référer aux coordonnées en bas de cette politique en matière de cookies. Si vous avez une réclamation concernant la façon dont nous traitons vos données, nous aimerions avoir de vos nouvelles, mais vous avez également le droit de déposer une plainte auprès de l'autorité de contrôle (l'Autorité de protection des données).",
+    "s10Heading": "10. Coordonnées",
+    "s10Intro": "Pour toute question et/ou commentaire concernant notre politique en matière de cookies et cette déclaration, veuillez nous contacter en utilisant les coordonnées suivantes :",
+    "s10Nome": "Studio CoLegal",
+    "s10Indirizzo": "Piazza Madonna degli Aldobrandini, n. 8 – Florence, Italie",
+    "s10Sito": "Site web : https://studiocolegal.it",
+    "s10Email": "Email : info@studiocolegal.it",
+    "s10Telefono": "Téléphone : 055.289321",
+    "s10Sync": "Cette politique en matière de cookies a été synchronisée avec cookiedatabase.org le 2 juillet 2022."
   },
   "professionisti": {
     "title": "Les Professionnels",
+    "areeTitle": "Domaines de compétence",
+    "settoriTitle": "Secteurs de conseil",
+    "settoriIntro": "Conseille des entreprises opérant dans les secteurs suivants :",
+    "contattiDesc": "Pour plus d'informations ou pour demander un rendez-vous.",
     "pietro": {
       "name": "Avv. Pietro Messina",
       "role": "Avocat",
       "competenze": "Domaines de compétence : • Droit des Affaires et Commercial • Droit de la Propriété Industrielle et Intellectuelle • Droit Immobilier et de la Construction • Droit Bancaire",
       "bio": "Inscrit au Barreau de Florence depuis 2008. Il est titulaire d'un Doctorat en Droit Privé Comparé de l'Université de Florence et d'un Master en Construction Law & Dispute Resolution du King's College de Londres.",
-      "aree": ["Droit des Affaires et Commercial", "Droit de la Propriété Industrielle et Intellectuelle", "Droit Immobilier et de la Construction", "Droit Bancaire"]
+      "aree": [
+        "Droit des Affaires et Commercial",
+        "Droit de la Propriété Industrielle et Intellectuelle",
+        "Droit Immobilier et de la Construction",
+        "Droit Bancaire"
+      ],
+      "areeDettaglio": [
+        {
+          "titolo": "Droit des Affaires et Commercial",
+          "descrizione": "Négociation et rédaction de contrats commerciaux et d'affaires, nationaux et internationaux, notamment les contrats de distribution, d'agence, de franchise, de joint-venture et de collaboration, de production et d'externalisation, de promotion et de publicité, de conseil et de marchés de services, de fourniture et de conditions générales de vente, de cession et de location d'entreprise, de location commerciale. Assistance à la création et à la gestion de réseaux commerciaux, au choix des Incoterms, des moyens de paiement et des garanties contractuelles, d'assurance et bancaires, à la résolution de problèmes de concurrence et d'importations parallèles."
+        },
+        {
+          "titolo": "Droit de la Propriété Industrielle et Intellectuelle",
+          "descrizione": "Conseil en matière de valorisation, de promotion et de protection de la propriété intellectuelle (brevets, marques, dessins industriels, droits d'auteur, savoir-faire et secrets industriels). Soutien et assistance à l'activité créative, scientifique et innovante, avec préparation de contrats de licence, de confidentialité, de conseil, de recherche et développement, de collaboration, de gestion et de parrainage. Assistance tant dans la création et le développement d'actifs immatériels que dans la défense contre la contrefaçon et la concurrence déloyale. Enregistrement et protection de la propriété intellectuelle par des actions judiciaires et extrajudiciaires, avec contrôle territorial et sur internet."
+        },
+        {
+          "titolo": "Droit Immobilier et de la Construction",
+          "descrizione": "Expérience et spécialisation dans les transactions immobilières internationales et les projets de construction. Conseil pour la participation et la gestion de marchés de travaux et de maintenance. Assistance dans les phases préliminaire, exécutive et post-exécution et de réception des travaux. Rédaction et négociation de contrats de travaux spécifiques ou de modifications de contrats types internationaux (ex. FIDIC, NEC, JCT, VOB), ainsi que de documents contractuels connexes tels que les cautions, garanties de maison mère, garanties collatérales, accords de pré-construction, lettres d'intention (contraignantes/non contraignantes), accords-cadres, joint-ventures et groupements temporaires d'entreprises."
+        },
+        {
+          "titolo": "Droit Bancaire",
+          "descrizione": "Conseil aux établissements de crédit, aux curatelles de faillite et aux particuliers, dans les contentieux relatifs aux actions en inefficacité, nullité et simulation d'actes et de paiements, aux actions révocatoires ordinaires et en faillite, à la mise en jeu ou à la contestation de cautions, garanties bancaires, gages et hypothèques, à la responsabilité des administrateurs et des associés, à la responsabilité des intermédiaires financiers pour violation des obligations d'information ou d'exécution adéquate des prestations."
+        }
+      ],
+      "settori": [
+        "construction et conception de bâtiments et d'infrastructures",
+        "mode",
+        "lunetterie",
+        "soins personnels et cosmétiques",
+        "médico-diagnostique",
+        "viticulture et agroalimentaire",
+        "automobile",
+        "tourisme",
+        "logiciels et innovation"
+      ]
     },
     "orsola": {
       "name": "Avv. Orsola Papasogli Tacca",
       "role": "Avocate",
       "competenze": "Domaines de compétence : • Droit des Affaires et Commercial • Droit de la Propriété Industrielle et Intellectuelle • Droit Immobilier et de la Construction • Entités du Tiers Secteur • Confidentialité",
-      "bio": "Inscrite au Barreau de Florence. Spécialisée en droit des affaires, propriété intellectuelle et entités du tiers secteur.",
-      "aree": ["Droit des Affaires et Commercial", "Droit de la Propriété Industrielle et Intellectuelle", "Droit Immobilier et de la Construction", "Entités du Tiers Secteur", "Confidentialité"]
+      "bio": "Inscrite au Barreau de Florence depuis 2010. Spécialisée en droit des affaires, propriété intellectuelle et entités du tiers secteur.",
+      "lingue": "Langues : italien, anglais et français.",
+      "aree": [
+        "Droit des Affaires et Commercial",
+        "Droit de la Propriété Industrielle et Intellectuelle",
+        "Droit Immobilier et de la Construction",
+        "Entités du Tiers Secteur",
+        "Confidentialité"
+      ],
+      "areeDettaglio": [
+        {
+          "titolo": "Droit des Affaires et Commercial",
+          "descrizione": "Négociation et rédaction de contrats d'affaires, de collaboration et de développement commercial. Focus : contrats de cession et de location d'entreprise, rent to buy d'entreprise, locations commerciales ou hôtelières, contrats de marchés de biens et de services, contrats d'agence, contrats de parrainage, contrats de shop sharing, due diligence juridique."
+        },
+        {
+          "titolo": "Droit de la Propriété Industrielle et Intellectuelle",
+          "descrizione": "Valorisation et protection des droits de propriété intellectuelle et industrielle. Focus : contrats de cession et/ou de licence de droits de propriété industrielle et intellectuelle, contrats de confidentialité, assistance aux clients dans les procédures administratives et contentieuses pour la protection des droits de propriété industrielle et intellectuelle ; préparation et présentation de demandes de protection en matière douanière (demandes AFA) visant à lutter contre la contrefaçon de marques et de brevets ; dépôt et renouvellement de marques au niveau national, européen et international."
+        },
+        {
+          "titolo": "Droit Immobilier et de la Construction",
+          "descrizione": "Acquisition et gestion de propriétés immobilières. Focus : contrats de vente, contrats de location, rent to buy de biens immobiliers, contrats de marchés de travaux, constitution et modification de servitudes."
+        },
+        {
+          "titolo": "Entités du Tiers Secteur",
+          "descrizione": "Adaptation de l'entité aux dispositions du nouveau Code du tiers secteur (Décret législatif du 3 juillet 2017 n° 117). Focus : modifications statutaires."
+        },
+        {
+          "titolo": "Confidentialité",
+          "descrizione": "Respect des exigences du Décret législatif 196/03 et du Règlement général sur la protection des données (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016."
+        }
+      ],
+      "settori": [
+        "agriculture et viticulture",
+        "certification d'installations et d'équipements",
+        "communication et relations publiques",
+        "bâtiment et construction",
+        "mode",
+        "sans but lucratif",
+        "production de matières premières pour la chimie du bâtiment"
+      ]
     },
     "ascanio": {
       "name": "Avv. Ascanio Ruschi",
       "role": "Avocat",
       "competenze": "Domaines de compétence : • Droit des Affaires et Commercial • Droit de la Propriété Industrielle et Intellectuelle • Droit Immobilier • Entités du Tiers Secteur • Droit viticole",
-      "bio": "Inscrit au Barreau de Florence. Spécialisé en droit des affaires, propriété intellectuelle et droit viticole.",
-      "aree": ["Droit des Affaires et Commercial", "Droit de la Propriété Industrielle et Intellectuelle", "Droit Immobilier", "Entités du Tiers Secteur", "Droit viticole"]
+      "bio": "Inscrit au Barreau de Florence depuis 2009. Il est titulaire d'un Master en Droit des Contrats Internationaux de Il Sole24ore et a suivi le Cours de perfectionnement en Droit viticole à l'Université de Florence.",
+      "lingue": "Langues : italien et anglais.",
+      "aree": [
+        "Droit des Affaires et Commercial",
+        "Droit de la Propriété Industrielle et Intellectuelle",
+        "Droit Immobilier",
+        "Entités du Tiers Secteur",
+        "Droit viticole"
+      ],
+      "areeDettaglio": [
+        {
+          "titolo": "Droit des Affaires et Commercial",
+          "descrizione": "Négociation et rédaction de contrats d'affaires, de collaboration et de développement commercial. Focus : contrats de cession et de location d'entreprise, rent to buy d'entreprise, locations commerciales ou hôtelières, contrats de marchés de biens et de services, contrats d'agence, contrats de parrainage, contrats de shop sharing."
+        },
+        {
+          "titolo": "Droit de la Propriété Industrielle et Intellectuelle",
+          "descrizione": "Valorisation et protection des droits de propriété intellectuelle et industrielle. Focus : contrats de cession et/ou de licence de droits de propriété industrielle et intellectuelle, contrats de confidentialité, assistance aux clients dans les procédures administratives et contentieuses pour la protection des droits de propriété industrielle et intellectuelle ; préparation et présentation de demandes de protection en matière douanière (demandes AFA) visant à lutter contre la contrefaçon de marques et de brevets ; dépôt et renouvellement de marques au niveau national, européen et international."
+        },
+        {
+          "titolo": "Droit Immobilier",
+          "descrizione": "Acquisition et gestion de propriétés immobilières. Due diligence immobilière et vérification de la commercialisation du bien. Négociation du contrat de vente. Focus : contrats de vente, contrats de location, rent to buy de biens immobiliers, contrats de marchés de travaux, constitution et modification de servitudes."
+        },
+        {
+          "titolo": "Entités du Tiers Secteur",
+          "descrizione": "Adaptation de l'entité aux dispositions du nouveau Code du tiers secteur (Décret législatif du 3 juillet 2017 n° 117). Focus : modifications statutaires."
+        },
+        {
+          "titolo": "Droit viticole",
+          "descrizione": ""
+        }
+      ],
+      "settori": [
+        "agriculture et viticulture",
+        "communication et relations publiques",
+        "informatique",
+        "organisation d'événements",
+        "mode",
+        "sans but lucratif"
+      ]
     }
   },
   "studio": {
     "title": "Le Cabinet",
     "heading": "Le cabinet CoLegal",
     "content": "Le Studio CoLegal est né au début de 2018 de la rencontre de trois professionnels qui, après avoir acquis une expérience décennale dans de prestigieux cabinets d'avocats florentins, ont décidé de créer une structure intégrée pour offrir un service d'assistance et de conseil juridique en droit des affaires, commercial, des organisations à but non lucratif et des personnes, à caractère national et international, avec la plus grande attention à la qualité et à l'efficacité.",
-    "content2": "Les professionnels du cabinet considèrent comme essentielle la relation de confiance avec la clientèle et la compréhension profonde de ses intérêts et besoins. Le rôle de l'avocat, dans notre vision, est de collaborer aux côtés du client, de le soutenir par sa compétence, et de partager et adopter avec lui les meilleurs choix. Compréhension, compétence et collaboration sont en effet les aspects essentiels sur lesquels le cabinet fonde la relation Professionnel/Client : Studio CoLegal en somme."
+    "content2": "Les professionnels du cabinet considèrent comme essentielle la relation de confiance avec la clientèle et la compréhension profonde de ses intérêts et besoins. Le rôle de l'avocat, dans notre vision, est de collaborer aux côtés du client, de le soutenir par sa compétence, et de partager et adopter avec lui les meilleurs choix. Compréhension, compétence et collaboration sont en effet les aspects essentiels sur lesquels le cabinet fonde la relation Professionnel/Client : Studio CoLegal en somme.",
+    "email": "E-MAIL",
+    "telephone": "TÉLÉPHONE",
+    "followUs": "SUIVEZ-NOUS"
   },
   "contatti": {
     "title": "Contact",
@@ -133,5 +325,69 @@
     "nega": "Refuser",
     "preferenze": "Voir les préférences",
     "salva": "Enregistrer les préférences"
+  },
+  "getQuote": {
+    "calcolatore": "CALCULATEUR DE COÛTS",
+    "title": "Demandez un Devis pour Vos Impôts",
+    "subtitle": "Calculateur Fiscal Gratuit",
+    "tariffaBase": "TARIF DE BASE À PARTIR DE",
+    "baseDesc": "Le client et l'avocat conviennent du taux horaire avant de commencer l'affaire.",
+    "tariffaStandard": "TARIF STANDARD À PARTIR DE",
+    "standardDesc": "Un forfait est proposé si l'affaire est relativement simple ou de routine.",
+    "piuRichiesto": "Le Plus Demandé",
+    "tariffaPremium": "TARIF PREMIUM À PARTIR DE",
+    "premiumDesc": "Nous vous informerons formellement de l'état des coûts, engagés et prévus, sur une base mensuelle."
+  },
+  "costCalculator": {
+    "inviaDettagli": "Soumettre les détails",
+    "settore": "Secteur",
+    "seleziona": "Sélectionnez...",
+    "energia": "Énergie",
+    "bancarioFinanziario": "Banque et Finance",
+    "alimentareAgricoloCosmetico": "Alimentation, Agriculture et Cosmétique",
+    "sanitarioFarmaceutico": "Santé et Pharmaceutique",
+    "tecnologiaInformatica": "Technologies de l'Information",
+    "mediaTelecomunicazioni": "Médias et Télécommunications",
+    "venditaDettaglio": "Vente au Détail et Biens de Consommation",
+    "nLavoratori": "Nombre approximatif de travailleurs",
+    "definisciReddito": "Définir le revenu d'entreprise",
+    "inserisciReddito": "Entrez votre revenu imposable",
+    "selezionaAnno": "Sélectionnez l'année fiscale",
+    "residente": "Résident",
+    "si": "Oui",
+    "no": "Non",
+    "totale": "Total",
+    "avanti": "Suivant",
+    "inserisciDati": "Entrez vos coordonnées",
+    "nome": "Nom *",
+    "email": "Email *",
+    "telefono": "Téléphone",
+    "indirizzo": "Adresse",
+    "dataPreferita": "Date de service préférée",
+    "orarioPreferito": "Heure de service préférée",
+    "messaggio": "Message",
+    "indietro": "← Retour",
+    "inviaRichiesta": "Envoyer la Demande"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "s1Heading": "Informations sur le Traitement des Données Personnelles",
+    "s1P1": "des utilisateurs qui consultent le site web de Studio CoLegal Avvocati Firenze des avocats Pietro Messina, Orsola Papàsogli Tacca, Ascanio Ruschi conformément à l'article 13 du Règlement (UE) 2016/679.",
+    "s1P2": "Conformément au Règlement (UE) 2016/679 (ci-après le \"Règlement\"), cette page décrit les modalités de traitement des données personnelles des utilisateurs (ci-après les \"Utilisateurs\") qui consultent le site web de Studio CoLegal Avvocati Firenze des avocats Pietro Messina, Orsola Papàsogli Tacca et Ascanio Ruschi (ci-après \"Studio CoLegal\") accessible à l'adresse suivante : www.studiocolegal.it.",
+    "s2P1": "Le site www.studiocolegal.it a été développé pour fournir des informations sur les Professionnels qui composent Studio CoLegal, sur les types d'activités et de services fournis, ainsi que pour donner aux personnes intéressées la possibilité d'envoyer des demandes d'informations, y compris en vue d'éventuels mandats professionnels.",
+    "s2P2": "Le site comprend également une section avec une adresse électronique à laquelle les Utilisateurs peuvent volontairement envoyer leur candidature s'ils sont intéressés par une collaboration avec Studio CoLegal.",
+    "s3Heading": "Responsable du traitement",
+    "s3P1": "Cette information est fournie par le Responsable du traitement en régime de cotitularité (avocats Pietro Messina, Orsola Papasogli Tacca et Ascanio Ruschi avec cabinet à Florence, Piazza Madonna degli Aldobrandini, n. 8, email : info@studiocolegal.it ; tél : 055.289321) uniquement pour le site Internet www.studiocolegal.it et non pour d'autres sites web éventuellement consultés.",
+    "s3P2": "Pour exercer les droits prévus aux articles 15 et suivants du RGPD, les Utilisateurs peuvent contacter le Responsable du traitement en envoyant un email à : info@studiocolegal.it. La communication doit contenir le nom, l'adresse, l'adresse email et/ou les numéros de téléphone, afin de permettre une bonne gestion de la demande.",
+    "s4Heading": "Données personnelles collectées",
+    "s4Intro": "Les données personnelles collectées par le Responsable du traitement sont :",
+    "s4Li1": "données techniques de navigation, telles que : navigateur utilisé, heure et lieu d'accès, type d'appareil et de système d'exploitation utilisés pour visiter le site, temps passé sur le site, nombre et séquence des pages visitées sur le site ; ces données ne sont pas collectées pour identifier ou enregistrer la personne concernée, mais indirectement, par association avec d'autres données collectées par le Responsable, pourraient permettre votre identification ;",
+    "s4Li2": "les données d'identification et de contact des Utilisateurs (ex. nom et prénom, adresse email, numéro de téléphone) incluses dans les communications et demandes transmises à Studio CoLegal, ainsi que les autres données nécessaires pour répondre et exécuter les demandes spécifiques des Utilisateurs.",
+    "s4Outro": "Les Utilisateurs ne doivent communiquer que des données à jour, pertinentes et non excessives par rapport aux finalités spécifiques du traitement. Si les Utilisateurs doivent communiquer des données de tiers, ils doivent se conformer aux obligations légales en matière de protection des données personnelles et, en particulier, informer de manière appropriée et rapide les tiers de la communication de leurs données au Responsable du traitement, ainsi que des caractéristiques du traitement par le Responsable du traitement lui-même. Toute donnée non nécessaire sera immédiatement supprimée ou anonymisée. Les données sont collectées au moment de l'accès et du séjour sur le site ou, ultérieurement, lorsqu'elles sont fournies par la personne concernée.",
+    "s5Heading": "Finalités du traitement des données personnelles",
+    "s5Intro": "Le traitement des données personnelles vise à :",
+    "s5Li1": "garantir l'accès au site Internet et améliorer l'expérience de navigation ;",
+    "s5Li2": "permettre l'envoi de demandes d'information adressées aux professionnels individuels de Studio CoLegal, y compris en vue d'éventuels mandats professionnels. Les Données seront traitées pour répondre aux demandes que les Utilisateurs pourront transmettre aux coordonnées disponibles sur le Site : à cette fin, il est nécessaire que les Utilisateurs communiquent leurs coordonnées car, à défaut, Studio CoLegal ne pourra pas leur répondre.",
+    "s5Li3": "évaluer les éventuelles candidatures reçues. Le Site comprend une section avec une adresse email à laquelle les Utilisateurs intéressés par une collaboration avec Studio CoLegal peuvent volontairement envoyer leur candidature. Dans ce cas, les données personnelles sont traitées exclusivement pour évaluer la candidature reçue. Pour le traitement de ces données personnelles, l'information correspondante conformément à l'art. 13 RGPD est fournie."
   }
 }

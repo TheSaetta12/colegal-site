@@ -19,7 +19,11 @@
   "hero": {
     "title": "STUDIO LEGALE\nCOLEGAL",
     "subtitle": "CORPORATE LAW\nCOMPETENZA E COLLABORAZIONE\nIN UNA PAROLA, COLEGAL",
-    "cta": "VIEW MORE"
+    "cta": "SCOPRI",
+    "super1": "STUDIO LEGALE",
+    "title1": "COLEGAL",
+    "super2": "DIRITTO COMMERCIALE",
+    "subtitle2": "COMPETENZA E COLLABORAZIONE\nIN UNA PAROLA, COLEGAL"
   },
   "home": {
     "studioTitle": "IL NOSTRO STUDIO",
@@ -83,12 +87,21 @@
   },
   "professionisti": {
     "title": "I Professionisti",
+    "areeTitle": "Aree di competenza",
+    "settoriTitle": "Settori di consulenza",
+    "settoriIntro": "È consulente di aziende che operano nei seguenti settori:",
+    "contattiDesc": "Per maggiori informazioni o per richiedere un appuntamento.",
     "pietro": {
       "name": "Avv. Pietro Messina",
       "role": "Avvocato",
       "competenze": "Aree di competenza: • Diritto di Impresa e Commerciale • Diritto della Proprietà Industriale e della Proprietà Intellettuale • Diritto Immobiliare e delle Costruzioni • Diritto Bancario",
       "bio": "Iscritto all'Ordine degli Avvocati di Firenze dal 2008. Ha conseguito il Dottorato di Ricerca in Diritto Privato Comparato presso l'Università di Firenze, ed il Master in Construction Law & Dispute Resolution presso il King's College di Londra.",
-      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare e delle Costruzioni", "Diritto Bancario"],
+      "aree": [
+        "Diritto di Impresa e Commerciale",
+        "Diritto della Proprietà Industriale e della Proprietà Intellettuale",
+        "Diritto Immobiliare e delle Costruzioni",
+        "Diritto Bancario"
+      ],
       "areeDettaglio": [
         {
           "titolo": "Diritto di Impresa e Commerciale",
@@ -107,7 +120,17 @@
           "descrizione": "Consulenza ad istituti di credito, curatele fallimentari e privati, nel contenzioso relativo ad azioni di inefficacia, nullità e simulazione di atti e pagamenti, revocatoria ordinaria e fallimentare, escussione o impugnazione di fideiussioni, garanzie bancarie, pegni ed ipoteche, responsabilità contro amministratori e soci, di responsabilità degli intermediari finanziari per violazione dei doveri di informazione o adeguata esecuzione delle prestazioni."
         }
       ],
-      "settori": ["costruzioni e della progettazione di edifici ed infrastrutture", "moda", "occhialeria", "personal care e cosmetici", "medico-diagnostico", "viticoltura ed agroalimentare", "auto", "turismo", "software e innovazione"]
+      "settori": [
+        "costruzioni e della progettazione di edifici ed infrastrutture",
+        "moda",
+        "occhialeria",
+        "personal care e cosmetici",
+        "medico-diagnostico",
+        "viticoltura ed agroalimentare",
+        "auto",
+        "turismo",
+        "software e innovazione"
+      ]
     },
     "orsola": {
       "name": "Avv. Orsola Papasogli Tacca",
@@ -115,7 +138,13 @@
       "competenze": "Aree di competenza: • Diritto di Impresa e Commerciale • Diritto della Proprietà Industriale e della Proprietà Intellettuale • Diritto Immobiliare e delle Costruzioni • Enti del Terzo Settore • Privacy",
       "bio": "Iscritta all'Ordine degli Avvocati di Firenze dal 2010. Specializzata in diritto d'impresa, proprietà intellettuale e enti del terzo settore.",
       "lingue": "Lingue: italiano, inglese e francese.",
-      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare e delle Costruzioni", "Enti del Terzo Settore", "Privacy"],
+      "aree": [
+        "Diritto di Impresa e Commerciale",
+        "Diritto della Proprietà Industriale e della Proprietà Intellettuale",
+        "Diritto Immobiliare e delle Costruzioni",
+        "Enti del Terzo Settore",
+        "Privacy"
+      ],
       "areeDettaglio": [
         {
           "titolo": "Diritto di Impresa e Commerciale",
@@ -138,7 +167,15 @@
           "descrizione": "Adempimenti previsti dal D. Lgs. 196/03 e Regolamento generale per la protezione dei dati personali (UE) 2016/679 del Parlamento Europeo e del Consiglio del 27 aprile 2016."
         }
       ],
-      "settori": ["agricolo e vitivinicolo", "certificazione impianti e attrezzature", "comunicazione e pubbliche relazioni", "edilizia", "moda", "no profit", "produzione di materie prime per la chimica edile"]
+      "settori": [
+        "agricolo e vitivinicolo",
+        "certificazione impianti e attrezzature",
+        "comunicazione e pubbliche relazioni",
+        "edilizia",
+        "moda",
+        "no profit",
+        "produzione di materie prime per la chimica edile"
+      ]
     },
     "ascanio": {
       "name": "Avv. Ascanio Ruschi",
@@ -146,7 +183,13 @@
       "competenze": "Aree di competenza: • Diritto di Impresa e Commerciale • Diritto della Proprietà Industriale e della Proprietà Intellettuale • Diritto Immobiliare • Enti del Terzo Settore • Diritto vitivinicolo",
       "bio": "Iscritto all'Ordine degli Avvocati di Firenze dal 2009. Ha conseguito il Master in Diritto dei Contratti Internazionali presso Il Sole24ore. Ha frequentato il Corso di perfezionamento in Diritto Vitivinicolo presso l'Università di Firenze.",
       "lingue": "Lingue: italiano e inglese.",
-      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare", "Enti del Terzo Settore", "Diritto vitivinicolo"],
+      "aree": [
+        "Diritto di Impresa e Commerciale",
+        "Diritto della Proprietà Industriale e della Proprietà Intellettuale",
+        "Diritto Immobiliare",
+        "Enti del Terzo Settore",
+        "Diritto vitivinicolo"
+      ],
       "areeDettaglio": [
         {
           "titolo": "Diritto di Impresa e Commerciale",
@@ -169,14 +212,24 @@
           "descrizione": ""
         }
       ],
-      "settori": ["agricolo e vitivinicolo", "comunicazione e pubbliche relazioni", "informatica", "organizzazione eventi", "moda", "no profit"]
+      "settori": [
+        "agricolo e vitivinicolo",
+        "comunicazione e pubbliche relazioni",
+        "informatica",
+        "organizzazione eventi",
+        "moda",
+        "no profit"
+      ]
     }
   },
   "studio": {
     "title": "Lo Studio",
     "heading": "Lo studio Colegal",
     "content": "Studio CoLegal è nato all'inizio del 2018 dall'incontro di tre professionisti che, dopo aver maturato una esperienza decennale in prestigiosi studi legali fiorentini, hanno deciso di dare vita ad una struttura integrata per offrire un servizio di assistenza e consulenza legale in diritto d'impresa, commerciale, delle organizzazioni non-profit e delle persone, di carattere nazionale ed internazionale, prestando la maggiore attenzione alla qualità e all'efficienza.",
-    "content2": "I professionisti dello studio ritengono essenziale il rapporto di fiducia con la Clientela e la profonda comprensione dei suoi interessi e bisogni. Il ruolo dell'avvocato, nella nostra visione, è quello di collaborare a fianco del Cliente, supportarlo con la propria competenza, e con esso condividere e adottare le migliori scelte. Comprensione, competenza e collaborazione sono infatti gli aspetti essenziali sui quali lo studio fonda il rapporto Professionista/Cliente: Studio CoLegal appunto."
+    "content2": "I professionisti dello studio ritengono essenziale il rapporto di fiducia con la Clientela e la profonda comprensione dei suoi interessi e bisogni. Il ruolo dell'avvocato, nella nostra visione, è quello di collaborare a fianco del Cliente, supportarlo con la propria competenza, e con esso condividere e adottare le migliori scelte. Comprensione, competenza e collaborazione sono infatti gli aspetti essenziali sui quali lo studio fonda il rapporto Professionista/Cliente: Studio CoLegal appunto.",
+    "email": "E-MAIL",
+    "telephone": "TELEFONO",
+    "followUs": "SEGUICI"
   },
   "contatti": {
     "title": "Contatti",
@@ -213,5 +266,128 @@
     "nega": "Nega",
     "preferenze": "Visualizza preferenze",
     "salva": "Salva preferenze"
+  },
+  "getQuote": {
+    "calcolatore": "CALCOLATORE DI COSTI",
+    "title": "Richiedi un Preventivo per le Tue Tasse",
+    "subtitle": "Calcolatore Fiscale Gratuito",
+    "tariffaBase": "TARIFFA BASE DA",
+    "baseDesc": "Il cliente e l'avvocato concordano la tariffa oraria prima di iniziare il caso.",
+    "tariffaStandard": "TARIFFA STANDARD DA",
+    "standardDesc": "Una tariffa fissa viene offerta se il caso è relativamente semplice o di routine.",
+    "piuRichiesto": "Più richiesto",
+    "tariffaPremium": "TARIFFA PREMIUM DA",
+    "premiumDesc": "Ti aggiorneremo formalmente sullo stato dei costi, sia sostenuti che previsti, su base mensile."
+  },
+  "costCalculator": {
+    "inviaDettagli": "Invia i dettagli",
+    "settore": "Settore",
+    "seleziona": "Seleziona...",
+    "energia": "Energia",
+    "bancarioFinanziario": "Bancario e Finanziario",
+    "alimentareAgricoloCosmetico": "Alimentare, Agricolo e Cosmetico",
+    "sanitarioFarmaceutico": "Sanitario e Farmaceutico",
+    "tecnologiaInformatica": "Tecnologia Informatica",
+    "mediaTelecomunicazioni": "Media e Telecomunicazioni",
+    "venditaDettaglio": "Vendita al Dettaglio e Beni di Consumo",
+    "nLavoratori": "N. approssimativo di lavoratori",
+    "definisciReddito": "Definisci il reddito aziendale",
+    "inserisciReddito": "Inserisci il tuo reddito imponibile",
+    "selezionaAnno": "Seleziona l'anno fiscale",
+    "residente": "Residente",
+    "si": "Sì",
+    "no": "No",
+    "totale": "Totale",
+    "avanti": "Avanti",
+    "inserisciDati": "Inserisci i tuoi dati",
+    "nome": "Nome *",
+    "email": "Email *",
+    "telefono": "Telefono",
+    "indirizzo": "Indirizzo",
+    "dataPreferita": "Data preferita per il servizio",
+    "orarioPreferito": "Orario preferito per il servizio",
+    "messaggio": "Messaggio",
+    "indietro": "← Indietro",
+    "inviaRichiesta": "Invia Richiesta"
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy (UE)",
+    "updated": "Questa politica sui cookie è stata aggiornata l'ultima volta il 2 Luglio 2022 e si applica ai cittadini e ai residenti permanenti legali dello Spazio Economico Europeo e della Svizzera.",
+    "s1Heading": "1. Introduzione",
+    "s1Content": "Il nostro sito web, https://studiocolegal.it (di seguito: \"il sito web\") utilizza i cookie e altre tecnologie correlate (per comodità tutte le tecnologie sono definite \"cookie\"). I cookie vengono anche inseriti da terze parti che abbiamo ingaggiato. Nel documento sottostante ti informiamo sull'uso dei cookie sul nostro sito web.",
+    "s2Heading": "2. Cosa sono i cookie?",
+    "s2Content": "I cookie sono dei semplici file spediti assieme alle pagine di questo sito e salvati dal tuo browser sul disco rigido del tuo computer o altri dispositivi. Le informazioni raccolte in essi possono venire rispediti ai nostri server oppure ai server di terze parti durante la prossima visita.",
+    "s3Heading": "3. Cosa sono gli script?",
+    "s3Content": "Uno script è un pezzo di codice usato per far funzionare correttamente ed interattivamente il nostro sito. Questo codice viene eseguito sui nostri server o sul tuo dispositivo.",
+    "s4Heading": "4. Cos'è un web beacon?",
+    "s4Content": "Un web beacon (o pixel tag) è un piccolo, invisibile pezzo di testo o immagine su un sito che viene usato per monitorare il traffico di un sito web. Per fare questo, diversi dati su di te vengono conservati utilizzando dei web beacon.",
+    "s5Heading": "5. Cookie",
+    "s5Sub1Heading": "5.1 Cookie tecnici o funzionali",
+    "s5Sub1Content": "Alcuni cookie assicurano il corretto funzionamento del sito e che le tue preferenze rimangano valide. Piazzando cookie funzionali, rendiamo più facile per te visitare il nostro sito web. In questo modo non devi inserire ripetutamente le stesse informazioni quando visiti il nostro sito web. Possiamo piazzare questi cookie senza il tuo consenso.",
+    "s5Sub2Heading": "5.2 Cookie di marketing/tracciamento",
+    "s5Sub2Content": "I cookie di marketing/tracciamento sono cookie o qualsiasi altra forma di memorizzazione locale, utilizzati per creare profili utente per visualizzare pubblicità o per tracciare l'utente su questo sito web o su diversi siti web per scopi di marketing simili.",
+    "s6Heading": "6. Cookie piazzati",
+    "tableColNome": "Nome",
+    "tableColScadenza": "Scadenza",
+    "tableColFunzione": "Funzione",
+    "tComplianz": "Complianz (Funzionale)",
+    "tSalvaPreferenze": "Salvare le preferenze del consenso ai cookie",
+    "tRegistraId": "Registrare l'ID della cookie policy accettata",
+    "tBannerDismissed": "Store if the cookie banner has been dismissed",
+    "tGoogleFonts": "Google Fonts (Pubblicità/Tracciamento)",
+    "tRichiediIp": "Richiedere l'indirizzo IP dell'utente",
+    "tYouTube": "YouTube (Pubblicità/Tracciamento, Funzionale)",
+    "tSalvaPosizione": "Salvare i dati di posizione",
+    "tStoreInteraction": "Store and track interaction",
+    "tSalvaPreferenzeUtente": "Salvare le preferenze utente",
+    "tFunzionale": "Funzionale",
+    "tLarghezzaBanda": "Larghezza di banda stimata",
+    "days365": "365 giorni",
+    "nessuno": "nessuno",
+    "sessione": "sessione",
+    "months8": "8 mesi",
+    "months6": "6 mesi",
+    "s7Heading": "7. Consenso",
+    "s7Content": "Quando visiti il sito web per la prima volta, noi mostreremo un popup con una spiegazione dei cookie. Appena clicchi su \"Salva preferenze\", dai il permesso a noi di usare le categorie di cookie e plugin come descritto in questa dichiarazione relativa ai popup e cookie. Puoi disabilitare i cookie attraverso il tuo browser, ma prendi in considerazione, che il nostro sito web potrebbe non funzionare più correttamente.",
+    "s8Heading": "8. Abilitare/disabilitare e cancellazione dei cookie",
+    "s8Content": "Puoi usare il tuo browser per cancellare automaticamente o manualmente i cookie. È anche possibile specificare che determinati cookie non possono essere piazzati. Un'altra opzione è quella di modificare le impostazioni del tuo browser internet in modo da ricevere un messaggio ogni volta che viene inserito un cookie. Per ulteriori informazioni su queste opzioni, consultare le istruzioni nella sezione Guida del tuo browser. Ricorda che il nostro sito potrebbe non funzionare correttamente se tutti i cookie sono disabilitati. Se cancelli i cookie nel tuo browser, saranno ripositi nuovamente dopo il tuo permesso quando visiterai nuovamente il nostro sito.",
+    "s9Heading": "9. I tuoi diritti con rispetto ai dati personali",
+    "s9Intro": "Hai i seguenti diritti relativi ai tuoi dati personali:",
+    "s9Li1": "Hai il diritto di sapere quando i tuoi dati personali sono necessari, cosa succede ad essi, quanto a lungo verranno mantenuti.",
+    "s9Li2": "Diritto di accesso: hai il diritto ad accedere ai tuoi dati personali dei quali siamo a conoscenza.",
+    "s9Li3": "Diritto di rettifica: hai il diritto di completare, correggere, cancellare o bloccare i tuoi dati personali quando lo desideri.",
+    "s9Li4": "Se ci darai il consenso per elaborare i tuoi dati, hai il diritto di revocare questo consenso e di eliminare i tuoi dati personali.",
+    "s9Li5": "Diritto di trasferire i tuoi dati: hai il diritto di richiedere tutti i tuoi dati dal controllore e trasferirli tutti quanti ad un altro controllore.",
+    "s9Li6": "Diritto di opposizione: hai il diritto di opporti al trattamento dei tuoi dati. Noi rispetteremo questa scelta, a meno che non ci siano delle basi valide per trattarli.",
+    "s9Outro": "Per esercitare questi diritti, non esitate a contattarci. Si prega di fare riferimento ai dettagli di contatto in fondo a questa Cookie Policy. Se hai un reclamo su come gestiamo i tuoi dati, vorremmo sentirti, ma hai anche il diritto di presentare un reclamo all'autorità di vigilanza (l'Autorità per la Protezione dei Dati).",
+    "s10Heading": "10. Dettagli di contatto",
+    "s10Intro": "Per domande e/o commenti riguardo la Cookie Policy e questa dichiarazione, per favore contattaci usando i seguenti dati di contatto:",
+    "s10Nome": "Studio CoLegal",
+    "s10Indirizzo": "Piazza Madonna degli Aldobrandini, n. 8 – Firenze, Italia",
+    "s10Sito": "Sito web: https://studiocolegal.it",
+    "s10Email": "Email: info@studiocolegal.it",
+    "s10Telefono": "Numero di telefono: 055.289321",
+    "s10Sync": "Questa politica sui cookie è stata sincronizzata con cookiedatabase.org il 2 Luglio 2022."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "s1Heading": "Informazioni sul Trattamento dei Dati Personali",
+    "s1P1": "degli utenti che consultano il sito web dello Studio CoLegal Avvocati Firenze degli Avvocati Pietro Messina, Orsola Papàsogli Tacca, Ascanio Ruschi ai sensi dell'articolo 13 del Regolamento (UE) 2016/679.",
+    "s1P2": "Ai sensi del Regolamento (UE) 2016/679 (di seguito \"Regolamento\"), questa pagina descrive le modalità di trattamento dei dati personali degli utenti (di seguito \"Utenti\") che consultano il sito web dello Studio CoLegal Avvocati Firenze degli Avvocati Pietro Messina, Orsola Papàsogli Tacca e Ascanio Ruschi (di seguito \"Studio CoLegal\") accessibile per via telematica al seguente indirizzo: www.studiocolegal.it.",
+    "s2P1": "Il sito www.studiocolegal.it è stato sviluppato per fornire informazioni sui Professionisti che compongono lo Studio CoLegal, sulle tipologie di attività e servizi forniti, nonché per dare la possibilità agli interessati di inviare richieste di informazioni, anche finalizzate all'eventuale conferimento di incarichi professionali.",
+    "s2P2": "Il sito presenta infine una sezione con indicato l'indirizzo email a cui gli Utenti possono volontariamente inviare la propria candidatura se interessati ad una collaborazione con lo Studio CoLegal.",
+    "s3Heading": "Titolare del trattamento",
+    "s3P1": "L'informativa è resa dal Titolare del trattamento in regime di contitolarità (avvocati Pietro Messina, Orsola Papasogli Tacca e Ascanio Ruschi con studio in Firenze, Piazza Madonna degli Aldobrandini, n. 8, email: info@studiocolegal.it; tel: 055.289321) solo per il sito Internet www.studiocolegal.it e non anche per altri siti web eventualmente consultati.",
+    "s3P2": "Per esercitare i diritti previsti dagli artt. 15 e ss. del GDPR, gli Utenti possono rivolgersi al Titolare inviando una email all'indirizzo: info@studiocolegal.it. La comunicazione deve contenere il nominativo, l'indirizzo, indirizzo email e/o i numeri di telefono, al fine di permettere la corretta gestione della richiesta.",
+    "s4Heading": "Dati personali raccolti",
+    "s4Intro": "I dati personali raccolti dal Titolare del trattamento sono:",
+    "s4Li1": "dati tecnici di navigazione, quali, a titolo di esempio: browser utilizzato, ora e luogo di accesso, tipologia di dispositivo e di sistema operativo utilizzati per visitare il sito, tempo trascorso all'interno del sito, numero e sequenza delle pagine visitate all'interno del sito; tali dati non sono raccolti per identificare o registrare l'interessato, ma indirettamente, per associazione con altri dati raccolti dal Titolare, potrebbero consentire la Sua identificazione;",
+    "s4Li2": "i dati identificativi e di contatto degli Utenti (es. nome e cognome, indirizzo email, numero di telefono) inclusi nelle comunicazioni e nelle richieste trasmesse allo Studio CoLegal, nonché gli ulteriori dati necessari a rispondere e ad eseguire le specifiche richieste degli Utenti.",
+    "s4Outro": "Gli Utenti dovranno comunicare solo dati aggiornati, pertinenti e non eccedenti le specifiche finalità del trattamento. Nel caso in cui gli Utenti si trovino nella necessità di comunicare dati di terzi, essi dovranno assolvere gli adempimenti di legge in materia di tutela dei dati personali e, in particolare, informare opportunamente e tempestivamente i terzi della comunicazione dei loro dati al Titolare del trattamento, nonché delle caratteristiche del trattamento da parte dello stesso Titolare del trattamento. Eventuali dati non necessari saranno immediatamente cancellati o anonimizzati. I dati sono raccolti al momento di accesso e di permanenza sul sito o, successivamente, in quanto forniti dall'interessato.",
+    "s5Heading": "Finalità del trattamento dei dati personali",
+    "s5Intro": "Il trattamento dei dati personali è finalizzato a:",
+    "s5Li1": "garantire l'accesso al sito internet e il miglioramento dell'esperienza di navigazione;",
+    "s5Li2": "consentire l'invio di richieste di informazione dirette ai singoli professionisti dello Studio CoLegal, anche finalizzate all'eventuale conferimento di incarichi professionali. I Dati saranno trattati per rispondere alle richieste che gli Utenti potranno trasmettere ai recapiti disponibili sul Sito: a tal fine, è necessario che gli Utenti comunichino i loro dati di contatto in quanto, in mancanza, non sarà possibile allo Studio CoLegal dare loro riscontro.",
+    "s5Li3": "valutare le eventuali candidature ricevute. Nel Sito è presente uno spazio che contiene una sezione con indicato l'indirizzo email cui gli Utenti interessati ad una collaborazione con lo Studio CoLegal possono inviare volontariamente la loro candidatura. In tal caso, i dati personali vengono trattati esclusivamente per valutare la Candidatura pervenuta. Per il trattamento di tali dati personali è presente la relativa informativa ex art. 13 GDPR."
   }
 }

@@ -90,7 +90,7 @@ export default async function ProfessionistaPage({ params }: Props) {
             <div>
               <h3 className="text-[11px] sm:text-xs font-semibold tracking-widest text-accent uppercase mb-5 lg:mb-6 flex items-center gap-3">
                 <span className="w-5 lg:w-6 h-px bg-accent/40 shrink-0" />
-                Aree di competenza
+                {t("professionisti.areeTitle")}
               </h3>
               {areeDettaglio ? (
                 <div className="space-y-6">
@@ -128,10 +128,10 @@ export default async function ProfessionistaPage({ params }: Props) {
               <div>
                 <h3 className="text-[11px] sm:text-xs font-semibold tracking-widest text-accent uppercase mb-3 lg:mb-4 flex items-center gap-3">
                   <span className="w-5 lg:w-6 h-px bg-accent/40 shrink-0" />
-                  Settori di consulenza
+                  {t("professionisti.settoriTitle")}
                 </h3>
                 <p className="text-sm text-body/70 mb-4">
-                  È consulente di aziende che operano nei seguenti settori:
+                  {t("professionisti.settoriIntro")}
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {settori.map((s, i) => (
@@ -155,7 +155,7 @@ export default async function ProfessionistaPage({ params }: Props) {
                 </div>
                 <div className="flex-1">
                   <p className="text-sm font-semibold text-heading mb-1">{t("home.contattiTitle")}</p>
-                  <p className="text-sm text-body/70">Per maggiori informazioni o per richiedere un appuntamento.</p>
+                  <p className="text-sm text-body/70">{t("professionisti.contattiDesc")}</p>
                 </div>
                 <Link
                   href="/contatti"

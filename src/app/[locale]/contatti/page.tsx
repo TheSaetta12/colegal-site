@@ -1,9 +1,15 @@
-import { useTranslations } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
 import Image from "next/image";
 
-export default function ContattiPage() {
-  const t = useTranslations();
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function ContattiPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale });
 
   return (
     <div>

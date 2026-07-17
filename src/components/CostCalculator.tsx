@@ -1,15 +1,26 @@
 "use client";
 
 import { useState, useMemo, useRef } from "react";
+import { useTranslations } from "next-intl";
+
+const INDUSTRY_KEYS = [
+  "energia",
+  "bancarioFinanziario",
+  "alimentareAgricoloCosmetico",
+  "sanitarioFarmaceutico",
+  "tecnologiaInformatica",
+  "mediaTelecomunicazioni",
+  "venditaDettaglio",
+] as const;
 
 const INDUSTRY_VALUES: Record<string, number> = {
-  Energia: 400,
-  "Bancario e Finanziario": 600,
-  "Alimentare, Agricolo e Cosmetico": 700,
-  "Sanitario e Farmaceutico": 500,
-  "Tecnologia Informatica": 650,
-  "Media e Telecomunicazioni": 800,
-  "Vendita al Dettaglio e Beni di Consumo": 900,
+  energia: 400,
+  bancarioFinanziario: 600,
+  alimentareAgricoloCosmetico: 700,
+  sanitarioFarmaceutico: 500,
+  tecnologiaInformatica: 650,
+  mediaTelecomunicazioni: 800,
+  venditaDettaglio: 900,
 };
 
 const YEAR_VALUES: Record<string, number> = {
@@ -29,8 +40,9 @@ const YEAR_VALUES: Record<string, number> = {
 };
 
 export default function CostCalculator() {
+  const t = useTranslations("costCalculator");
   const [step, setStep] = useState<"calculator" | "contact">("calculator");
-  const [industry, setIndustry] = useState("Energia");
+  const [industry, setIndustry] = useState("energia");
   const [workers, setWorkers] = useState(18);
   const [income, setIncome] = useState("");
   const [year, setYear] = useState("2022/2023");
@@ -58,29 +70,25 @@ export default function CostCalculator() {
       <div className={`transition-opacity duration-500 ${step === "calculator" ? "block" : "hidden"}`}>
         <>
           <p className="text-xs font-semibold text-heading mb-6 uppercase tracking-wider">
-            Invia i dettagli
+            {t("inviaDettagli")}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-4">
             <div>
-              <label className="block text-xs text-body/70 mb-1.5">Settore</label>
+              <label className="block text-xs text-body/70 mb-1.5">{t("settore")}</label>
               <select
                 value={industry}
                 onChange={(e) => setIndustry(e.target.value)}
                 className="w-full border border-border bg-white px-4 py-3 text-sm text-heading focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition"
               >
-                <option value="" disabled>Seleziona...</option>
-                <option value="Energia">Energia</option>
-                <option value="Bancario e Finanziario">Bancario e Finanziario</option>
-                <option value="Alimentare, Agricolo e Cosmetico">Alimentare, Agricolo e Cosmetico</option>
-                <option value="Sanitario e Farmaceutico">Sanitario e Farmaceutico</option>
-                <option value="Tecnologia Informatica">Tecnologia Informatica</option>
-                <option value="Media e Telecomunicazioni">Media e Telecomunicazioni</option>
-                <option value="Vendita al Dettaglio e Beni di Consumo">Vendita al Dettaglio e Beni di Consumo</option>
+                <option value="" disabled>{t("seleziona")}</option>
+                {INDUSTRY_KEYS.map((key) => (
+                  <option key={key} value={key}>{t(key)}</option>
+                ))}
               </select>
             </div>
             <div>
-              <label className="block text-xs text-body/70 mb-1.5">N. approssimativo di lavoratori</label>
+              <label className="block text-xs text-body/70 mb-1.5">{t("nLavoratori")}</label>
               <div className="flex items-center gap-3 pt-1">
                 <input
                   type="range"
@@ -98,12 +106,12 @@ export default function CostCalculator() {
           <div className="border-t border-border my-6" />
 
           <p className="text-xs font-semibold text-heading mb-4 uppercase tracking-wider">
-            Definisci il reddito aziendale
+            {t("definisciReddito")}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-4">
             <div>
-              <label className="block text-xs text-body/70 mb-1.5">Inserisci il tuo reddito imponibile</label>
+              <label className="block text-xs text-body/70 mb-1.5">{t("inserisciReddito")}</label>
               <input
                 type="text"
                 placeholder="€"
@@ -113,32 +121,22 @@ export default function CostCalculator() {
               />
             </div>
             <div>
-              <label className="block text-xs text-body/70 mb-1.5">Seleziona l&apos;anno fiscale</label>
+              <label className="block text-xs text-body/70 mb-1.5">{t("selezionaAnno")}</label>
               <select
                 value={year}
                 onChange={(e) => setYear(e.target.value)}
                 className="w-full border border-border bg-white px-4 py-3 text-sm text-heading focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition"
               >
-                <option value="" disabled>Seleziona...</option>
-                <option value="2013/2014">2013/2014</option>
-                <option value="2014/2015">2014/2015</option>
-                <option value="2015/2016">2015/2016</option>
-                <option value="2016/2017">2016/2017</option>
-                <option value="2017/2018">2017/2018</option>
-                <option value="2018/2019">2018/2019</option>
-                <option value="2019/2020">2019/2020</option>
-                <option value="2020/2021">2020/2021</option>
-                <option value="2021/2022">2021/2022</option>
-                <option value="2022/2023">2022/2023</option>
-                <option value="2023/2024">2023/2024</option>
-                <option value="2024/2025">2024/2025</option>
-                <option value="2025/2026">2025/2026</option>
+                <option value="" disabled>{t("seleziona")}</option>
+                {Object.keys(YEAR_VALUES).map((y) => (
+                  <option key={y} value={y}>{y}</option>
+                ))}
               </select>
             </div>
           </div>
 
           <div className="mb-4">
-            <label className="block text-xs text-body/70 mb-1.5">Residente</label>
+            <label className="block text-xs text-body/70 mb-1.5">{t("residente")}</label>
             <div className="flex items-center gap-3">
               <button
                 type="button"
@@ -156,14 +154,14 @@ export default function CostCalculator() {
                 />
               </button>
               <span className={`text-sm font-medium transition-colors ${resident ? "text-accent" : "text-body/70"}`}>
-                {resident ? "Sì" : "No"}
+                {resident ? t("si") : t("no")}
               </span>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mt-8 pt-5 border-t border-border gap-4">
             <div className="flex items-baseline gap-2">
-              <span className="text-xs text-body/70 uppercase tracking-wider">Totale</span>
+              <span className="text-xs text-body/70 uppercase tracking-wider">{t("totale")}</span>
               <span className="text-3xl font-serif font-bold text-heading">
                 €{displayTotal.toLocaleString()}
               </span>
@@ -173,7 +171,7 @@ export default function CostCalculator() {
               onClick={handleNext}
               className="w-full sm:w-auto border-2 border-accent text-accent px-8 py-3 text-xs font-semibold tracking-wider hover:bg-accent hover:text-white transition uppercase"
             >
-              Avanti
+              {t("avanti")}
             </button>
           </div>
         </>
@@ -182,28 +180,28 @@ export default function CostCalculator() {
       <div className={`transition-opacity duration-500 ${step === "contact" ? "block" : "hidden"}`}>
         <>
           <p className="text-xs font-semibold text-heading mb-6 uppercase tracking-wider">
-            Inserisci i tuoi dati
+            {t("inserisciDati")}
           </p>
           <form onSubmit={(e) => e.preventDefault()}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <input type="text" placeholder="Nome *" required className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
+                <input type="text" placeholder={t("nome")} required className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
               </div>
               <div>
-                <input type="email" placeholder="Email *" required className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
+                <input type="email" placeholder={t("email")} required className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
               </div>
               <div>
-                <input type="tel" placeholder="Telefono" className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
+                <input type="tel" placeholder={t("telefono")} className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
               </div>
               <div>
-                <input type="text" placeholder="Indirizzo" className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
+                <input type="text" placeholder={t("indirizzo")} className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
               </div>
               <div>
-                <input type="text" placeholder="Data preferita per il servizio" className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
+                <input type="text" placeholder={t("dataPreferita")} className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition" />
               </div>
               <div>
                 <select className="w-full border border-border bg-white px-4 py-3 text-sm text-heading focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition">
-                  <option value="">Orario preferito per il servizio</option>
+                  <option value="">{t("orarioPreferito")}</option>
                   <option value="08:00">08:00</option>
                   <option value="09:00">09:00</option>
                   <option value="10:00">10:00</option>
@@ -217,7 +215,7 @@ export default function CostCalculator() {
               </div>
             </div>
             <div className="mt-4">
-              <textarea placeholder="Messaggio" rows={4} className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition resize-none" />
+              <textarea placeholder={t("messaggio")} rows={4} className="w-full border border-border bg-white px-4 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/20 transition resize-none" />
             </div>
             <div className="mt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
               <button
@@ -225,13 +223,13 @@ export default function CostCalculator() {
                 onClick={() => setStep("calculator")}
                 className="w-full sm:w-auto text-sm text-body/60 hover:text-heading transition"
               >
-                &larr; Indietro
+                {t("indietro")}
               </button>
               <button
                 type="submit"
                 className="w-full sm:w-auto bg-accent text-white px-8 py-3 text-xs font-semibold tracking-wider hover:bg-accent-light transition uppercase"
               >
-                Invia Richiesta
+                {t("inviaRichiesta")}
               </button>
             </div>
           </form>

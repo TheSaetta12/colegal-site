@@ -79,7 +79,7 @@ export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const t = await getTranslations();
+  const t = await getTranslations({ locale });
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -131,7 +131,7 @@ export default async function HomePage({ params }: Props) {
       </ScrollReveal>
 
       <ScrollReveal>
-        <section className="py-20 lg:py-28 bg-[#f8f7f4]">
+        <section className="py-20 lg:py-28 bg-[#353535]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
               <div className="lg:order-2">
@@ -142,6 +142,7 @@ export default async function HomePage({ params }: Props) {
                       key={ambito.key}
                       title={t(`ambiti.${ambito.key}`)}
                       href={`/attivita#${ambito.id}`}
+                      light
                     />
                   ))}
                 </div>
