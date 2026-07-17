@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "CoLegal Law Firm",
+    "description": "CoLegal Law Firm - Legal assistance and consultancy in corporate, commercial, and personal law"
+  },
+  "nav": {
+    "home": "Home",
+    "studio": "About Us",
+    "attivita": "Practice Areas",
+    "professionisti": "Professionals",
+    "contatti": "Contact",
+    "richiediPreventivo": "Request a Quote"
+  },
+  "header": {
+    "email": "info@studiocolegal.it",
+    "indirizzo": "Piazza Madonna degli Aldobrandini, n. 8 - Florence",
+    "telefono": "(+39) 055.289321"
+  },
+  "hero": {
+    "title": "COLEGAL\nLAW FIRM",
+    "subtitle": "CORPORATE LAW\nEXPERTISE AND COLLABORATION\nIN ONE WORD, COLEGAL",
+    "cta": "VIEW MORE"
+  },
+  "home": {
+    "studioTitle": "OUR FIRM",
+    "studioDesc": "Studio CoLegal was founded in early 2018 by three professionals who decided to create an integrated structure to offer legal assistance and consultancy in corporate, commercial, non-profit and personal law, nationally and internationally, with the utmost attention to quality and efficiency.",
+    "studioCta": "CONTACT US",
+    "ambitiTitle": "OUR PRACTICE AREAS",
+    "ambitiCta": "LEARN MORE",
+    "professionistiTitle": "WHO WE ARE",
+    "professionistiSubtitle": "THE PROFESSIONALS",
+    "professionistiCta": "LEARN MORE",
+    "contattiTitle": "CONTACT US"
+  },
+  "ambiti": {
+    "title": "OUR PRACTICE AREAS",
+    "impresa": "Corporate and Commercial Law",
+    "industriale": "Industrial and Intellectual Property Law",
+    "immobiliare": "Real Estate and Construction Law",
+    "bancario": "Banking Law",
+    "terzosettore": "Third Sector – Non Profit",
+    "privacy": "Privacy"
+  },
+  "attivita": {
+    "title": "Practice Areas",
+    "impresa": {
+      "title": "Corporate and Commercial Law",
+      "content": "Maximum attention is paid to the needs of businesses. We assist entrepreneurial realities from their establishment, through the choice of corporate form and preparation of the articles of association, bylaws and shareholders' agreements, and in all fundamental decisions concerning corporate life."
+    },
+    "industriale": {
+      "title": "Industrial and Intellectual Property Law",
+      "content": "Our strength is the ability to combine commercial law and business contracting consultancy with the enhancement and protection of intellectual property (patents, trademarks, industrial designs, copyright, trade secrets, etc.)."
+    },
+    "immobiliare": {
+      "title": "Real Estate and Construction Law",
+      "content": "The firm's professionals provide consultancy and assistance in the management of real estate assets, in operations concerning acquisition, sale, enhancement and enjoyment of residential, commercial or hotel properties."
+    },
+    "bancario": {
+      "title": "Banking Law",
+      "content": "The firm's professionals provide assistance, consultancy and defense for clients, both private individuals and bankruptcy proceedings and credit institutions."
+    },
+    "terzosettore": {
+      "title": "Third Sector – Non Profit",
+      "content": "The firm assists non-profit entities guiding them from their establishment. In this particular historical moment we assist non-profit entities in the path initiated by the Third Sector Reform."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "content": "The firm provides consultancy on personal data processing and assists the client in adapting data processing to current regulations."
+    }
+  },
+  "professionisti": {
+    "title": "The Professionals",
+    "pietro": {
+      "name": "Avv. Pietro Messina",
+      "role": "Lawyer",
+      "competenze": "Areas of expertise: • Corporate and Commercial Law • Industrial and Intellectual Property Law • Real Estate and Construction Law • Banking Law",
+      "bio": "Member of the Florence Bar since 2008. He holds a PhD in Comparative Private Law from the University of Florence and a Master in Construction Law & Dispute Resolution from King's College London.",
+      "aree": ["Corporate and Commercial Law", "Industrial and Intellectual Property Law", "Real Estate and Construction Law", "Banking Law"]
+    },
+    "orsola": {
+      "name": "Avv. Orsola Papasogli Tacca",
+      "role": "Lawyer",
+      "competenze": "Areas of expertise: • Corporate and Commercial Law • Industrial and Intellectual Property Law • Real Estate and Construction Law • Third Sector Entities • Privacy",
+      "bio": "Member of the Florence Bar. Specialized in corporate law, intellectual property and third sector entities.",
+      "aree": ["Corporate and Commercial Law", "Industrial and Intellectual Property Law", "Real Estate and Construction Law", "Third Sector Entities", "Privacy"]
+    },
+    "ascanio": {
+      "name": "Avv. Ascanio Ruschi",
+      "role": "Lawyer",
+      "competenze": "Areas of expertise: • Corporate and Commercial Law • Industrial and Intellectual Property Law • Real Estate Law • Third Sector Entities • Wine Law",
+      "bio": "Member of the Florence Bar. Specialized in corporate law, intellectual property and wine law.",
+      "aree": ["Corporate and Commercial Law", "Industrial and Intellectual Property Law", "Real Estate Law", "Third Sector Entities", "Wine Law"]
+    }
+  },
+  "studio": {
+    "title": "About Us",
+    "heading": "CoLegal Firm",
+    "content": "Studio CoLegal was founded in early 2018 by three professionals who, after gaining a decade of experience in prestigious Florentine law firms, decided to create an integrated structure to offer legal assistance and consultancy in corporate, commercial, non-profit and personal law, nationally and internationally, with the utmost attention to quality and efficiency.",
+    "content2": "The firm's professionals consider the relationship of trust with clients and the deep understanding of their interests and needs to be essential. The role of the lawyer, in our vision, is to collaborate alongside the client, support them with their expertise, and share and adopt the best choices with them. Understanding, expertise and collaboration are the essential aspects on which the firm bases the Professional/Client relationship: Studio CoLegal indeed."
+  },
+  "contatti": {
+    "title": "Contact",
+    "heading": "CoLegal Law Firm Florence",
+    "indirizzo": "Piazza Madonna degli Aldobrandini, n. 8, 50123 Florence",
+    "telefono": "(+39) 055.289321",
+    "fax": "(+39) 055.289321",
+    "email": "info@studiocolegal.it",
+    "sito": "www.studiocolegal.it",
+    "form": {
+      "nome": "Name",
+      "email": "Email",
+      "telefono": "Phone",
+      "oggetto": "Subject",
+      "messaggio": "Message",
+      "invia": "Send",
+      "privacy": "I have read and understood the Privacy Policy",
+      "scegli": "— Please choose an option —"
+    }
+  },
+  "footer": {
+    "ambiti": "PRACTICE AREAS",
+    "links": "LINKS",
+    "contatti": "CONTACT",
+    "privacy": "Privacy policy",
+    "cookie": "Cookie Policy (EU)",
+    "copyright": "Copyright © Studio CoLegal 2018",
+    "seguici": "Follow us"
+  },
+  "cookie": {
+    "title": "Manage Cookie Consent",
+    "desc": "We use cookies to optimize our website and our services.",
+    "accetta": "Accept cookies",
+    "nega": "Reject",
+    "preferenze": "View preferences",
+    "salva": "Save preferences"
+  }
+}

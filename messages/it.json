@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Studio Legale CoLegal",
+    "description": "Studio Legale CoLegal - Assistenza e consulenza legale in diritto d'impresa, commerciale, e delle persone"
+  },
+  "nav": {
+    "home": "Home",
+    "studio": "Lo Studio",
+    "attivita": "Attività",
+    "professionisti": "I Professionisti",
+    "contatti": "Contatti",
+    "richiediPreventivo": "Richiedi un Preventivo"
+  },
+  "header": {
+    "email": "info@studiocolegal.it",
+    "indirizzo": "Piazza Madonna degli Aldobrandini, n. 8 - Firenze",
+    "telefono": "(+39) 055.289321"
+  },
+  "hero": {
+    "title": "STUDIO LEGALE\nCOLEGAL",
+    "subtitle": "CORPORATE LAW\nCOMPETENZA E COLLABORAZIONE\nIN UNA PAROLA, COLEGAL",
+    "cta": "VIEW MORE"
+  },
+  "home": {
+    "studioTitle": "IL NOSTRO STUDIO",
+    "studioDesc": "Studio CoLegal è nato all'inizio del 2018 dall'incontro di tre professionisti che hanno deciso di dare vita ad una struttura integrata per offrire un servizio di assistenza e consulenza legale in diritto d'impresa, commerciale, delle organizzazioni non-profit e delle persone, di carattere nazionale ed internazionale, prestando la maggiore attenzione alla qualità e all'efficienza.",
+    "studioCta": "CONTATTACI",
+    "ambitiTitle": "I NOSTRI AMBITI",
+    "ambitiCta": "APPROFONDISCI",
+    "professionistiTitle": "CHI SIAMO",
+    "professionistiSubtitle": "I PROFESSIONISTI",
+    "professionistiCta": "APPROFONDISCI",
+    "contattiTitle": "CONTATTACI"
+  },
+  "ambiti": {
+    "title": "I NOSTRI AMBITI",
+    "impresa": "Diritto di Impresa e Commerciale",
+    "industriale": "Diritto Industriale e Proprietà Intellettuale",
+    "immobiliare": "Diritto Immobiliare e delle Costruzioni",
+    "bancario": "Diritto Bancario",
+    "terzosettore": "Enti del Terzo Settore – No Profit",
+    "privacy": "Privacy"
+  },
+  "attivita": {
+    "title": "Attività",
+    "impresa": {
+      "title": "Diritto di Impresa e Commerciale",
+      "content": "Alle esigenze delle aziende è rivolta la massima attenzione. Assistiamo le realtà imprenditoriali sin dalla loro costituzione, attraverso la scelta della forma societaria e predisposizione del relativo atto costitutivo, statuto e patti parasociali, ed in tutte le decisioni fondamentali attinenti la vita societaria, nei rapporti tra soci o con la società e nella gestione degli eventuali contenziosi.",
+      "content2": "Lo studio supporta le aziende nelle decisioni utili a rafforzarne la posizione nel mercato, nazionale ed internazionale, curando ogni aspetto negoziale con le terze parti e provvedendo alla predisposizione e redazione delle tipologie contrattuali di interesse. Assiste regolarmente la clientela nella creazione e gestione di reti commerciali, nella scelta dei mezzi di pagamento, di garanzie contrattuali, assicurative e bancarie, nella soluzione di problematiche di natura concorrenziale e relative ad importazioni parallele.",
+      "content3": "Lo studio assiste la propria clientela in operazioni di trasferimenti e conferimenti di azienda e/o rami di azienda, joint venture, acquisizione e cessione di partecipazioni, accompagnandola sin dalle fasi preliminari di negoziazione, redazione e sottoscrizione di accordi di riservatezza, lettere di intenti, term sheet, procedendo poi alla effettuazione della due diligence con trasmissione del relativo report, sino ad arrivare alla fase finale delle operazioni, con la negoziazione, redazione e stipula dei testi contrattuali relativi al closing.",
+      "focus": "Assistiamo la clientela nella negoziazione e redazione di contratti commerciali e d'impresa, nazionali ed internazionali. In particolare, i professionisti dello studio sono specializzati nella redazione e negoziazione di contratti di distribuzione, agenzia, franchising, joint venture e collaborazione, produzione e out-sourcing, promozione e pubblicità, consulenza e appalti di servizi, fornitura e condizioni generali di vendita."
+    },
+    "industriale": {
+      "title": "Diritto Industriale e Proprietà Intellettuale",
+      "content": "Nostro punto di forza è la capacità di coniugare la consulenza di diritto commerciale e contrattualistica di impresa, con la valorizzazione e la tutela della proprietà intellettuale (brevetti, marchi, disegni industriali, diritto d'autore, segreti industriali etc.). È di fondamentale importanza, infatti, poter aiutare le aziende a comprendere il potenziale delle opere del loro ingegno, supportarle nella creazione e registrazione dei loro beni immateriali, contribuire ad un consapevole management dei brand e delle invenzioni, approntare una efficace protezione della proprietà intellettuale tramite azioni giudiziali e stragiudiziali, con controllo (anche doganale) del territorio e di internet.",
+      "content2": "In questo ambito, lo studio affianca la Clientela, in particolare, nei settori della moda, occhialeria, cosmetici, medico-diagnostico, nuove tecnologie, agroalimentare. Inventori, stilisti, consulenti, professionisti ed aziende sono assistiti nella promozione, sfruttamento e tutela della loro attività creativa, scientifica ed innovativa, individuando e definendo contratti di licenza, di riservatezza, di consulenza, di ricerca e sviluppo, di management e di sponsorship.",
+      "focus": "Offriamo assistenza nella protezione di ogni proprietà intellettuale, tramite azioni giudiziali (ordinarie e cautelari) e stragiudiziali, con controllo del territorio ed internet. Curiamo la predisposizione e la presentazione della Domanda di intervento doganale (Application For Action – AFA) a tutela dei diritti di proprietà intellettuale, seguiamo il procedimento di approvazione e gestiamo i rapporti con l'Agenzia delle Dogane e dei Monopoli relativamente alla domanda presentata e accettata. Assistiamo e rappresentiamo i clienti dinanzi ad organizzazioni nazionale ed internazionali (es. WIPO) nelle controversie relative all'assegnazione ed utilizzo del Domain Name.",
+      "focus2": "Curiamo direttamente la registrazione di marchi e disegni, ed indirettamente (tramite corrispondenti e collaborazioni con mandatari nazionali ed internazionali) quelle di brevetti, a livello nazionale, europeo ed internazionale – effettuando i preventivi controlli di conformità alle prescrizioni di legge e le ricerche di anteriorità, controllando che il corrispondente nome di dominio (o indirizzo Internet) sia ancora libero, e individuando le classi di appartenenza dei prodotti/servizi per i quali si intende ottenere la registrazione del marchio. Gestiamo le annotazioni o le trascrizioni di fatti inerenti la vita di un marchio e di un disegno."
+    },
+    "immobiliare": {
+      "title": "Diritto Immobiliare e delle Costruzioni",
+      "content": "I professionisti dello studio prestano attività di consulenza ed assistenza nella gestione dei patrimoni immobiliari, in operazioni concernenti acquisizione, cessione, valorizzazione e godimento di immobili ad uso residenziale, commerciale od alberghiero, e nella realizzazione di nuove costruzioni o nella ristrutturazione di quelle esistenti.",
+      "content2": "Lo studio assiste i clienti in tutte le fasi relative alla acquisizione o cessione di immobili e quindi nelle trattative, nella predisposizione ed invio di manifestazioni di interesse o proposte di acquisto, nella redazione e stipula di contratti preliminari di compravendita e di contratti definitivi, effettuando ogni tipo di preventivo adempimento.",
+      "content3": "Una specializzazione, in particolare, è stata sviluppata in materia di appalti e costruzioni internazionali, assistendo la clientela sin dalle fasi iniziali di discussione di un appalto e progettazione, proseguendo nella valutazione e negoziazione del contratto di appalto, e degli strumenti negoziali ad esso legati (garanzie, mezzi di pagamento etc.), nonché nella gestione delle problematiche durante l'esecuzione dell'opera sino al collaudo e alla verifica di vizi o difformità.",
+      "focus": "Il Cliente viene assistito nella gestione o nell'acquisizione di asset immobiliari attraverso la negoziazione e stipula di contratti di locazione ad uso abitativo, commerciale o alberghiero, contratti di leasing, contratti di comodato, nonché attraverso la consulenza, assistenza e difesa giudiziale nelle eventuali controversie inerenti la vita ed il godimento degli stessi. Viene, altresì, curata la due diligence sui titoli di provenienza degli immobili e sulla commerciabilità del bene, pareri sui title insurance appetibili, cura degli aspetti pratici (es. apertura di conti correnti per clienti stranieri, rapporti con professionisti e tecnici), approfondimento degli aspetti fiscali legati ai vari tipi di investimenti immobiliari (persone fisiche o giuridiche).",
+      "focus2": "Lo studio offre la propria assistenza e consulenza tramite la predisposizione di contratti di appalto specifici e secondo le esigenze del cliente, o facendo ricorso a contratti standard internazionali (es. FIDIC, NEC, JCT, VOB). Sono abitualmente negoziati altresì documenti contrattuali che accompagnano l'appalto, tra i quali, ad esempio, bond, parent company guarantee, collateral warrenty, pre-construction service agreement, letter of intent (binding / non binding), framework agreement, joint venture e associazioni temporanee di impresa."
+    },
+    "bancario": {
+      "title": "Diritto Bancario",
+      "content": "I professionisti dello studio prestano la propria attività di assistenza, consulenza e difesa a favore dei clienti, sia privati che procedure fallimentari ed istituti di credito, nei contenziosi relativi ai rapporti e contratti bancari quali conti correnti, mutui, leasing e prodotti derivati, fideiussioni, pagamenti, piani di rientro e responsabilità degli intermediari finanziari per violazione dei doveri di informazione o adeguata esecuzione delle prestazioni e nonché.",
+      "focus": "Assistenza e consulenza ai privati nei rapporti con gli Istituti di credito al fine di ottenere condizioni ottimali nella stipula o nella rinegoziazione di contratti di diritto bancario, nel contenzioso avente ad oggetto azioni di inefficacia, nullità e simulazione di atti e pagamenti, revocatoria ordinaria e fallimentare, escussione o impugnazione di fideiussioni, garanzie bancarie, pegni ed ipoteche, di risarcimento danno per responsabilità degli intermediari finanziari."
+    },
+    "terzosettore": {
+      "title": "Enti del Terzo Settore – No Profit",
+      "content": "Lo studio assiste gli enti no profit guidandoli sin dalla loro costituzione. In questo particolare momento storico assistiamo gli enti no profit nel cammino avviato con la Riforma del Terzo Settore.",
+      "focus": "Assistiamo le Associazioni nel valutare le opportunità offerte dal nuovo Codice del Terzo Settore e nell'adeguamento dello Statuto alle prescrizioni del Codice del Terzo Settore laddove necessario."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "content": "Lo studio presta attività di consulenza in materia di trattamento dei dati personali ed assiste il cliente nell'attività di adeguamento del trattamento dei dati alla normativa vigente (D. Lgs. 196/03 e Regolamento generale per la protezione dei dati personali (UE) 2016/679 del Parlamento Europeo e del Consiglio del 27 aprile 2016) e nella compliance successiva.",
+      "focus": "Esame dei trattamenti effettuati e predisposizione della modulistica concernente i dati personali (moduli di informativa e di raccolta del consenso al trattamento dei dati, lettere di incarico e nomina, registro dei trattamenti), verifica e approntamento delle procedure predisposte dal cliente per l'esercizio del diritto di accesso da parte degli interessati, nonché delle procedure predisposte dal cliente per le ipotesi di violazione dei dati e predisposizione del modello di notificazione della violazione. Lo studio presta altresì attività di assistenza continuativa al cliente anche nella fase successiva all'intervenuto adeguamento alle normative in materia di privacy."
+    }
+  },
+  "professionisti": {
+    "title": "I Professionisti",
+    "pietro": {
+      "name": "Avv. Pietro Messina",
+      "role": "Avvocato",
+      "competenze": "Aree di competenza: • Diritto di Impresa e Commerciale • Diritto della Proprietà Industriale e della Proprietà Intellettuale • Diritto Immobiliare e delle Costruzioni • Diritto Bancario",
+      "bio": "Iscritto all'Ordine degli Avvocati di Firenze dal 2008. Ha conseguito il Dottorato di Ricerca in Diritto Privato Comparato presso l'Università di Firenze, ed il Master in Construction Law & Dispute Resolution presso il King's College di Londra.",
+      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare e delle Costruzioni", "Diritto Bancario"],
+      "areeDettaglio": [
+        {
+          "titolo": "Diritto di Impresa e Commerciale",
+          "descrizione": "Negoziazione e redazione di contratti commerciali e d'impresa, nazionali ed internazionali, ed in particolare contratti di distribuzione, agenzia, franchising, joint venture e collaborazione, produzione e out-sourcing, promozione e pubblicità, consulenza e appalti di servizi, fornitura e condizioni generali di vendita, cessione ed affitto di azienda, locazione commerciale. Assistenza nella creazione e gestione di reti commerciali, nella scelta di Incoterms, mezzi di pagamento e garanzie contrattuali, assicurative e bancarie, nella soluzione di problematiche di natura concorrenziale e relative ad importazioni parallele."
+        },
+        {
+          "titolo": "Diritto della Proprietà Industriale e della Proprietà Intellettuale",
+          "descrizione": "Consulenza nella valorizzazione, promozione e tutela della proprietà intellettuale (brevetti, marchi, disegni industriali, copyright, know-how e segreti industriali). Supporto ed assistenza dell'attività creativa, scientifica ed innovativa, con predisposizione di contratti di licenza, riservatezza, consulenza, ricerca e sviluppo, collaborazione, management e sponsorship. Assistenza sia nella fase di creazione e sviluppo di beni immateriali e dell'ingegno che nella difesa dalla contraffazione e concorrenza sleale. Registrazione e protezione della proprietà intellettuale tramite azioni giudiziali e stragiudiziali, con controllo del territorio ed internet."
+        },
+        {
+          "titolo": "Diritto Immobiliare e delle Costruzioni",
+          "descrizione": "Esperienza e specializzazione in compravendite immobiliari e costruzioni internazionali. Consulenza per la partecipazione e gestione di appalti di opere e di manutenzione. Assistenza nella fase preliminare, esecutiva e successiva all'esecuzione e collaudo dell'appalto. Redazione e negoziazione di contratti di appalto specifici o modifiche a contratti standard internazionali (es. FIDIC, NEC, JCT, VOB), nonché di documenti contrattuali ad essi legati quali, ad esempio, bond, parent company guarantee, collateral warrenty, pre-constraction service agremeent, letter of intent (binding / non binding), framework agreement, joint venture e associazioni temporanee di impresa."
+        },
+        {
+          "titolo": "Diritto Bancario",
+          "descrizione": "Consulenza ad istituti di credito, curatele fallimentari e privati, nel contenzioso relativo ad azioni di inefficacia, nullità e simulazione di atti e pagamenti, revocatoria ordinaria e fallimentare, escussione o impugnazione di fideiussioni, garanzie bancarie, pegni ed ipoteche, responsabilità contro amministratori e soci, di responsabilità degli intermediari finanziari per violazione dei doveri di informazione o adeguata esecuzione delle prestazioni."
+        }
+      ],
+      "settori": ["costruzioni e della progettazione di edifici ed infrastrutture", "moda", "occhialeria", "personal care e cosmetici", "medico-diagnostico", "viticoltura ed agroalimentare", "auto", "turismo", "software e innovazione"]
+    },
+    "orsola": {
+      "name": "Avv. Orsola Papasogli Tacca",
+      "role": "Avvocato",
+      "competenze": "Aree di competenza: • Diritto di Impresa e Commerciale • Diritto della Proprietà Industriale e della Proprietà Intellettuale • Diritto Immobiliare e delle Costruzioni • Enti del Terzo Settore • Privacy",
+      "bio": "Iscritta all'Ordine degli Avvocati di Firenze. Specializzata in diritto d'impresa, proprietà intellettuale e enti del terzo settore.",
+      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare e delle Costruzioni", "Enti del Terzo Settore", "Privacy"]
+    },
+    "ascanio": {
+      "name": "Avv. Ascanio Ruschi",
+      "role": "Avvocato",
+      "competenze": "Aree di competenza: • Diritto di Impresa e Commerciale • Diritto della Proprietà Industriale e della Proprietà Intellettuale • Diritto Immobiliare • Enti del Terzo Settore • Diritto vitivinicolo",
+      "bio": "Iscritto all'Ordine degli Avvocati di Firenze. Specializzato in diritto d'impresa, proprietà intellettuale e diritto vitivinicolo.",
+      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare", "Enti del Terzo Settore", "Diritto vitivinicolo"]
+    }
+  },
+  "studio": {
+    "title": "Lo Studio",
+    "heading": "Lo studio Colegal",
+    "content": "Studio CoLegal è nato all'inizio del 2018 dall'incontro di tre professionisti che, dopo aver maturato una esperienza decennale in prestigiosi studi legali fiorentini, hanno deciso di dare vita ad una struttura integrata per offrire un servizio di assistenza e consulenza legale in diritto d'impresa, commerciale, delle organizzazioni non-profit e delle persone, di carattere nazionale ed internazionale, prestando la maggiore attenzione alla qualità e all'efficienza.",
+    "content2": "I professionisti dello studio ritengono essenziale il rapporto di fiducia con la Clientela e la profonda comprensione dei suoi interessi e bisogni. Il ruolo dell'avvocato, nella nostra visione, è quello di collaborare a fianco del Cliente, supportarlo con la propria competenza, e con esso condividere e adottare le migliori scelte. Comprensione, competenza e collaborazione sono infatti gli aspetti essenziali sui quali lo studio fonda il rapporto Professionista/Cliente: Studio CoLegal appunto."
+  },
+  "contatti": {
+    "title": "Contatti",
+    "heading": "Studio CoLegal Avvocati Firenze",
+    "indirizzo": "Piazza Madonna degli Aldobrandini, n. 8, 50123 Firenze",
+    "telefono": "(+39) 055.289321",
+    "fax": "(+39) 055.289321",
+    "email": "info@studiocolegal.it",
+    "sito": "www.studiocolegal.it",
+    "form": {
+      "nome": "Nome",
+      "email": "Email",
+      "telefono": "Telefono",
+      "oggetto": "Oggetto",
+      "messaggio": "Messaggio",
+      "invia": "Invia",
+      "privacy": "Dichiaro di aver letto e compreso la Policy privacy",
+      "scegli": "— Please choose an option —"
+    }
+  },
+  "footer": {
+    "ambiti": "AMBITI",
+    "links": "LINKS",
+    "contatti": "CONTATTI",
+    "privacy": "Privacy policy",
+    "cookie": "Cookie Policy (UE)",
+    "copyright": "Copyright © Studio CoLegal 2018",
+    "seguici": "Seguici"
+  },
+  "cookie": {
+    "title": "Gestisci Consenso Cookie",
+    "desc": "Usiamo cookie per ottimizzare il nostro sito web ed i nostri servizi.",
+    "accetta": "Accetta cookie",
+    "nega": "Nega",
+    "preferenze": "Visualizza preferenze",
+    "salva": "Salva preferenze"
+  }
+}

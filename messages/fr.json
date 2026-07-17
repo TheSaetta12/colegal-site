@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Cabinet d'Avocats CoLegal",
+    "description": "Cabinet d'Avocats CoLegal - Assistance et conseil juridique en droit des affaires, commercial et des personnes"
+  },
+  "nav": {
+    "home": "Accueil",
+    "studio": "Le Cabinet",
+    "attivita": "Domaines d'Activité",
+    "professionisti": "Les Professionnels",
+    "contatti": "Contact",
+    "richiediPreventivo": "Demander un Devis"
+  },
+  "header": {
+    "email": "info@studiocolegal.it",
+    "indirizzo": "Piazza Madonna degli Aldobrandini, n. 8 - Florence",
+    "telefono": "(+39) 055.289321"
+  },
+  "hero": {
+    "title": "CABINET D'AVOCATS\nCOLEGAL",
+    "subtitle": "DROIT DES AFFAIRES\nCOMPÉTENCE ET COLLABORATION\nEN UN MOT, COLEGAL",
+    "cta": "VOIR PLUS"
+  },
+  "home": {
+    "studioTitle": "NOTRE CABINET",
+    "studioDesc": "Le Studio CoLegal est né au début de 2018 de la rencontre de trois professionnels qui ont décidé de créer une structure intégrée pour offrir un service d'assistance et de conseil juridique en droit des affaires, commercial, des organisations à but non lucratif et des personnes, à caractère national et international, avec la plus grande attention à la qualité et à l'efficacité.",
+    "studioCta": "NOUS CONTACTER",
+    "ambitiTitle": "NOS DOMAINES D'ACTIVITÉ",
+    "ambitiCta": "EN SAVOIR PLUS",
+    "professionistiTitle": "QUI SOMMES-NOUS",
+    "professionistiSubtitle": "LES PROFESSIONNELS",
+    "professionistiCta": "EN SAVOIR PLUS",
+    "contattiTitle": "NOUS CONTACTER"
+  },
+  "ambiti": {
+    "title": "NOS DOMAINES D'ACTIVITÉ",
+    "impresa": "Droit des Affaires et Commercial",
+    "industriale": "Droit Industriel et Propriété Intellectuelle",
+    "immobiliare": "Droit Immobilier et de la Construction",
+    "bancario": "Droit Bancaire",
+    "terzosettore": "Tiers Secteur – Non Profit",
+    "privacy": "Confidentialité"
+  },
+  "attivita": {
+    "title": "Domaines d'Activité",
+    "impresa": {
+      "title": "Droit des Affaires et Commercial",
+      "content": "Une attention maximale est portée aux besoins des entreprises. Nous accompagnons les réalités entrepreneuriales dès leur constitution, par le choix de la forme sociale et la préparation des statuts, règlements et pactes d'actionnaires, et dans toutes les décisions fondamentales concernant la vie sociale."
+    },
+    "industriale": {
+      "title": "Droit Industriel et Propriété Intellectuelle",
+      "content": "Notre point fort est la capacité de combiner le conseil en droit commercial et en contrats d'entreprise avec la valorisation et la protection de la propriété intellectuelle (brevets, marques, dessins industriels, droit d'auteur, secrets industriels, etc.)."
+    },
+    "immobiliare": {
+      "title": "Droit Immobilier et de la Construction",
+      "content": "Les professionnels du cabinet fournissent des conseils et une assistance dans la gestion des patrimoines immobiliers, dans les opérations concernant l'acquisition, la vente, la valorisation et la jouissance de biens à usage résidentiel, commercial ou hôtelier."
+    },
+    "bancario": {
+      "title": "Droit Bancaire",
+      "content": "Les professionnels du cabinet fournissent leur activité d'assistance, conseil et défense pour les clients, tant privés que procédures collectives et établissements de crédit."
+    },
+    "terzosettore": {
+      "title": "Tiers Secteur – Non Profit",
+      "content": "Le cabinet assiste les entités à but non lucratif en les guidant dès leur constitution. En ce moment historique particulier, nous assistons les entités à but non lucratif dans le chemin initié par la Réforme du Tiers Secteur."
+    },
+    "privacy": {
+      "title": "Confidentialité",
+      "content": "Le cabinet fournit des conseils en matière de traitement des données personnelles et assiste le client dans l'adaptation du traitement des données à la réglementation en vigueur."
+    }
+  },
+  "professionisti": {
+    "title": "Les Professionnels",
+    "pietro": {
+      "name": "Avv. Pietro Messina",
+      "role": "Avocat",
+      "competenze": "Domaines de compétence : • Droit des Affaires et Commercial • Droit de la Propriété Industrielle et Intellectuelle • Droit Immobilier et de la Construction • Droit Bancaire",
+      "bio": "Inscrit au Barreau de Florence depuis 2008. Il est titulaire d'un Doctorat en Droit Privé Comparé de l'Université de Florence et d'un Master en Construction Law & Dispute Resolution du King's College de Londres.",
+      "aree": ["Droit des Affaires et Commercial", "Droit de la Propriété Industrielle et Intellectuelle", "Droit Immobilier et de la Construction", "Droit Bancaire"]
+    },
+    "orsola": {
+      "name": "Avv. Orsola Papasogli Tacca",
+      "role": "Avocate",
+      "competenze": "Domaines de compétence : • Droit des Affaires et Commercial • Droit de la Propriété Industrielle et Intellectuelle • Droit Immobilier et de la Construction • Entités du Tiers Secteur • Confidentialité",
+      "bio": "Inscrite au Barreau de Florence. Spécialisée en droit des affaires, propriété intellectuelle et entités du tiers secteur.",
+      "aree": ["Droit des Affaires et Commercial", "Droit de la Propriété Industrielle et Intellectuelle", "Droit Immobilier et de la Construction", "Entités du Tiers Secteur", "Confidentialité"]
+    },
+    "ascanio": {
+      "name": "Avv. Ascanio Ruschi",
+      "role": "Avocat",
+      "competenze": "Domaines de compétence : • Droit des Affaires et Commercial • Droit de la Propriété Industrielle et Intellectuelle • Droit Immobilier • Entités du Tiers Secteur • Droit viticole",
+      "bio": "Inscrit au Barreau de Florence. Spécialisé en droit des affaires, propriété intellectuelle et droit viticole.",
+      "aree": ["Droit des Affaires et Commercial", "Droit de la Propriété Industrielle et Intellectuelle", "Droit Immobilier", "Entités du Tiers Secteur", "Droit viticole"]
+    }
+  },
+  "studio": {
+    "title": "Le Cabinet",
+    "heading": "Le cabinet CoLegal",
+    "content": "Le Studio CoLegal est né au début de 2018 de la rencontre de trois professionnels qui, après avoir acquis une expérience décennale dans de prestigieux cabinets d'avocats florentins, ont décidé de créer une structure intégrée pour offrir un service d'assistance et de conseil juridique en droit des affaires, commercial, des organisations à but non lucratif et des personnes, à caractère national et international, avec la plus grande attention à la qualité et à l'efficacité.",
+    "content2": "Les professionnels du cabinet considèrent comme essentielle la relation de confiance avec la clientèle et la compréhension profonde de ses intérêts et besoins. Le rôle de l'avocat, dans notre vision, est de collaborer aux côtés du client, de le soutenir par sa compétence, et de partager et adopter avec lui les meilleurs choix. Compréhension, compétence et collaboration sont en effet les aspects essentiels sur lesquels le cabinet fonde la relation Professionnel/Client : Studio CoLegal en somme."
+  },
+  "contatti": {
+    "title": "Contact",
+    "heading": "Cabinet CoLegal Avocats Florence",
+    "indirizzo": "Piazza Madonna degli Aldobrandini, n. 8, 50123 Florence",
+    "telefono": "(+39) 055.289321",
+    "fax": "(+39) 055.289321",
+    "email": "info@studiocolegal.it",
+    "sito": "www.studiocolegal.it",
+    "form": {
+      "nome": "Nom",
+      "email": "Email",
+      "telefono": "Téléphone",
+      "oggetto": "Sujet",
+      "messaggio": "Message",
+      "invia": "Envoyer",
+      "privacy": "J'ai lu et compris la Politique de confidentialité",
+      "scegli": "— Veuillez choisir une option —"
+    }
+  },
+  "footer": {
+    "ambiti": "DOMAINES D'ACTIVITÉ",
+    "links": "LIENS",
+    "contatti": "CONTACT",
+    "privacy": "Politique de confidentialité",
+    "cookie": "Politique des cookies (UE)",
+    "copyright": "Copyright © Studio CoLegal 2018",
+    "seguici": "Suivez-nous"
+  },
+  "cookie": {
+    "title": "Gérer le consentement aux cookies",
+    "desc": "Nous utilisons des cookies pour optimiser notre site web et nos services.",
+    "accetta": "Accepter les cookies",
+    "nega": "Refuser",
+    "preferenze": "Voir les préférences",
+    "salva": "Enregistrer les préférences"
+  }
+}
