@@ -31,7 +31,14 @@ export default function ContattiPage() {
                 <h2 className="text-2xl font-serif font-bold text-heading mb-3">
                   {t("contatti.heading")}
                 </h2>
-                <p className="text-sm text-body/80 leading-relaxed">{t("contatti.indirizzo")}</p>
+                <a
+                  href="https://www.google.com/maps?q=Piazza+Madonna+degli+Aldobrandini+8+Firenze"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-body/80 leading-relaxed hover:text-accent transition"
+                >
+                  {t("contatti.indirizzo")}
+                </a>
               </div>
               <div className="space-y-4">
                 <a href={`tel:${t("contatti.telefono")}`} className="flex items-center gap-3 text-sm text-body/80 hover:text-accent transition group">

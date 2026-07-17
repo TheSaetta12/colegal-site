@@ -1,5 +1,6 @@
 "use client";
 
+import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/navigation";
 
 const languages = [
@@ -13,13 +14,14 @@ type Props = {
 };
 
 export default function LanguageSwitcher({ scrolled }: Props) {
+  const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
 
   return (
     <div className="flex gap-0.5">
       {languages.map((lang) => {
-        const isActive = pathname.startsWith(`/${lang.code}`);
+        const isActive = locale === lang.code;
         return (
           <button
             key={lang.code}

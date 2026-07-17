@@ -18,28 +18,32 @@ export default function ProfessionistaCard({ name, competenze, slug, cta = "Appr
   const imgSrc = imageMap[slug];
 
   return (
-    <div className="text-center">
-      <div className="relative w-full aspect-[3/4] overflow-hidden mb-5 group">
+    <div className="flex flex-col">
+      <div className="relative w-full aspect-[3/4] overflow-hidden">
         <Image
           src={imgSrc}
           alt={name}
           fill
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className="object-cover"
           sizes="(max-width: 768px) 100vw, 33vw"
         />
-        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent h-1/2" />
-        <div className="absolute bottom-0 left-0 right-0 px-4 py-4 text-left translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-          <h3 className="text-white text-lg font-serif font-bold leading-tight">{name}</h3>
+      </div>
+      <div className="bg-[#353535] text-white px-6 py-8">
+        <h3 className="text-base font-bold tracking-wide uppercase mb-4">
+          {name}
+        </h3>
+        <div className="text-xs text-white/80 leading-relaxed">
+          {competenze}
+        </div>
+        <div className="mt-6">
+          <Link
+            href={`/professionisti/${slug}`}
+            className="inline-block text-xs font-semibold tracking-widest uppercase text-accent hover:text-white transition"
+          >
+            {cta}
+          </Link>
         </div>
       </div>
-      <h3 className="text-lg font-serif font-bold text-heading mb-2">{name}</h3>
-      <p className="text-xs text-body/70 leading-relaxed mb-4 px-2">{competenze}</p>
-      <Link
-        href={`/professionisti/${slug}`}
-        className="inline-block text-xs font-semibold tracking-widest text-accent hover:text-accent-light transition uppercase"
-      >
-        {cta}
-      </Link>
     </div>
   );
 }

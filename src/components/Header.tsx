@@ -44,13 +44,18 @@ export default function Header() {
               {t("header.email")}
             </a>
             <span className="text-white/20 hidden sm:inline">|</span>
-            <span className="text-white/50 text-[11px] hidden sm:inline-flex items-center gap-1.5">
+            <a
+              href="https://www.google.com/maps?q=Piazza+Madonna+degli+Aldobrandini+8+Firenze"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/50 text-[11px] hidden sm:inline-flex items-center gap-1.5 hover:text-white transition"
+            >
               <svg className="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
               </svg>
               {t("header.indirizzo")}
-            </span>
+            </a>
           </div>
           <div className="flex items-center gap-3">
             <div className="flex gap-1">
@@ -72,7 +77,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center">
-            <img src="/images/logo-white.png" alt="Studio CoLegal" className="h-9 lg:h-11 w-auto" />
+            <img src="/images/logo-white.png" alt="Studio CoLegal" className="h-11 lg:h-14 w-auto" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
