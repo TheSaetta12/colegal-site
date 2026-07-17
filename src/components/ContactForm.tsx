@@ -126,7 +126,7 @@ export default function ContactForm({ dark }: Props) {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-accent text-white px-6 py-3 text-sm font-semibold tracking-widest hover:bg-accent-light transition uppercase disabled:opacity-50"
+        className="w-full bg-accent text-white px-6 py-3.5 text-sm font-semibold tracking-widest hover:bg-accent-light active:bg-accent-dark transition uppercase disabled:opacity-50"
       >
         {status === "loading" ? "Invio..." : status === "success" ? "✓ Inviato" : status === "error" ? "Errore, riprova" : t("invia")}
       </button>

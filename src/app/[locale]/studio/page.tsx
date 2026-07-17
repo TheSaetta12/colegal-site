@@ -28,9 +28,9 @@ export default async function StudioPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="py-16 lg:py-20">
+      <section className="py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12">
             <div className="lg:col-span-2 space-y-5 text-sm text-body/80 leading-relaxed">
               <h2 className="text-2xl font-serif font-bold text-heading mb-4">
                 {t("studio.heading")}
@@ -39,7 +39,7 @@ export default async function StudioPage({ params }: Props) {
               <p>{t("studio.content2")}</p>
             </div>
             <div
-              className="relative bg-primary text-white p-8 overflow-hidden"
+              className="relative bg-primary text-white p-6 sm:p-8 overflow-hidden"
               style={{
                 background: `url('/images/studio-col-bg.jpg') center/cover no-repeat`,
               }}

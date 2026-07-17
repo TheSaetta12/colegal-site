@@ -66,8 +66,8 @@ export default function CostCalculator() {
   };
 
   return (
-    <div className="p-8 md:p-10" ref={contactRef}>
-      <div className={`transition-opacity duration-500 ${step === "calculator" ? "block" : "hidden"}`}>
+    <div className="p-8 md:p-10 flex-1 flex flex-col" ref={contactRef}>
+      <div className={`transition-opacity duration-500 flex-1 flex flex-col justify-center ${step === "calculator" ? "block" : "hidden"}`}>
         <>
           <p className="text-xs font-semibold text-heading mb-6 uppercase tracking-wider">
             {t("inviaDettagli")}
@@ -87,20 +87,20 @@ export default function CostCalculator() {
                 ))}
               </select>
             </div>
-            <div>
-              <label className="block text-xs text-body/70 mb-1.5">{t("nLavoratori")}</label>
-              <div className="flex items-center gap-3 pt-1">
-                <input
-                  type="range"
-                  min={0}
-                  max={100}
-                  value={workers}
-                  onChange={(e) => setWorkers(Number(e.target.value))}
-                  className="w-full accent-accent h-1.5"
-                />
-                <span className="text-lg font-serif font-bold text-accent min-w-[3ch] text-center">{workers}</span>
+              <div>
+                <label className="block text-xs text-body/70 mb-1.5">{t("nLavoratori")}</label>
+                <div className="flex items-center gap-3 pt-2">
+                  <input
+                    type="range"
+                    min={0}
+                    max={100}
+                    value={workers}
+                    onChange={(e) => setWorkers(Number(e.target.value))}
+                    className="w-full accent-accent h-2 cursor-pointer"
+                  />
+                  <span className="text-lg font-serif font-bold text-accent min-w-[3ch] text-center">{workers}</span>
+                </div>
               </div>
-            </div>
           </div>
 
           <div className="border-t border-border my-6" />
@@ -177,7 +177,7 @@ export default function CostCalculator() {
         </>
       </div>
 
-      <div className={`transition-opacity duration-500 ${step === "contact" ? "block" : "hidden"}`}>
+      <div className={`transition-opacity duration-500 flex-1 flex flex-col justify-center ${step === "contact" ? "block" : "hidden"}`}>
         <>
           <p className="text-xs font-semibold text-heading mb-6 uppercase tracking-wider">
             {t("inserisciDati")}

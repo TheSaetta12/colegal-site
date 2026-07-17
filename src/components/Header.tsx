@@ -148,44 +148,57 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="lg:hidden bg-primary-light border-t border-white/10 px-4 pb-4">
+        <div className="lg:hidden bg-primary-light border-t border-white/10 px-4 pb-6">
           {navLinks.map((link) =>
             link.dropdown ? (
               <div key={link.label}>
-                <span className="block px-3 py-2 text-xs font-semibold tracking-wider text-white/80 uppercase">
+                <button
+                  onClick={() => setDropdownOpen(!dropdownOpen)}
+                  className="flex items-center justify-between w-full px-3 py-3 text-xs font-semibold tracking-wider text-white/80 hover:text-accent uppercase"
+                >
                   {link.label}
-                </span>
-                <div className="pl-4">
-                  {link.dropdown.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="block px-3 py-1.5 text-xs text-white/60 hover:text-accent"
-                      onClick={() => setMobileOpen(false)}
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
+                  <svg
+                    className={`w-3.5 h-3.5 transition-transform ${dropdownOpen ? "rotate-180" : ""}`}
+                    fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {dropdownOpen && (
+                  <div className="pl-4 pb-2">
+                    {link.dropdown.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className="block px-3 py-2.5 text-xs text-white/60 hover:text-accent"
+                        onClick={() => setMobileOpen(false)}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </div>
             ) : (
               <Link
                 key={link.href}
                 href={link.href}
-                className="block px-3 py-2 text-xs font-semibold tracking-wider text-white/80 hover:text-accent uppercase"
+                className="block px-3 py-3 text-xs font-semibold tracking-wider text-white/80 hover:text-accent uppercase"
                 onClick={() => setMobileOpen(false)}
               >
                 {link.label}
               </Link>
             )
           )}
-          <Link
-            href="/get-quote"
-            className="block mt-3 border border-accent text-accent text-center px-4 py-2 text-xs font-semibold tracking-wider uppercase"
-            onClick={() => setMobileOpen(false)}
-          >
-            {t("nav.richiediPreventivo")}
-          </Link>
+          <div className="mt-4 px-3">
+            <Link
+              href="/get-quote"
+              className="block w-full border-2 border-accent text-accent text-center px-4 py-3 text-xs font-semibold tracking-wider uppercase hover:bg-accent hover:text-white transition"
+              onClick={() => setMobileOpen(false)}
+            >
+              {t("nav.richiediPreventivo")}
+            </Link>
+          </div>
         </div>
       )}
     </header>

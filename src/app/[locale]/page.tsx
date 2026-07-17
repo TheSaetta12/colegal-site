@@ -107,19 +107,19 @@ export default async function HomePage({ params }: Props) {
       <HeroSlider />
 
       <ScrollReveal>
-        <section id="about" className="py-20 lg:py-28">
+        <section id="about" className="py-16 sm:py-20 lg:py-28">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
               <div>
                 <SectionHeading>{t("home.studioTitle")}</SectionHeading>
-                <p className="text-sm lg:text-base text-body/80 leading-relaxed mb-10">
+                <p className="text-sm lg:text-base text-body/80 leading-relaxed mb-8 sm:mb-10">
                   {t("home.studioDesc")}
                 </p>
                 <CtaButton href="/contatti">{t("home.studioCta")}</CtaButton>
               </div>
-              <div className="mt-10 lg:mt-0">
+              <div className="mt-8 sm:mt-10 lg:mt-0">
                 <div
-                  className="w-full min-h-[28rem] lg:min-h-[32rem] bg-cover bg-center"
+                  className="w-full min-h-[20rem] sm:min-h-[28rem] lg:min-h-[32rem] bg-cover bg-center"
                   style={{ backgroundImage: "url('/images/home-studio.jpg')" }}
                   role="img"
                   aria-label="Studio Legale CoLegal"
@@ -131,7 +131,7 @@ export default async function HomePage({ params }: Props) {
       </ScrollReveal>
 
       <ScrollReveal>
-        <section className="py-20 lg:py-28 bg-[#353535]">
+        <section className="py-16 sm:py-20 lg:py-28 bg-[#353535]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
               <div className="lg:order-2">
@@ -146,11 +146,11 @@ export default async function HomePage({ params }: Props) {
                     />
                   ))}
                 </div>
-                <div className="mt-8">
+                <div className="mt-6 sm:mt-8">
                   <CtaButton href="/attivita">{t("home.ambitiCta")}</CtaButton>
                 </div>
               </div>
-              <div className="lg:order-1 mt-10 lg:mt-0">
+              <div className="lg:order-1 mt-8 sm:mt-10 lg:mt-0">
                 <SectionImage src="/images/home-ambiti.jpg" alt="I Nostri Ambiti" />
               </div>
             </div>
@@ -159,18 +159,18 @@ export default async function HomePage({ params }: Props) {
       </ScrollReveal>
 
       <ScrollReveal>
-        <section className="py-20 lg:py-28">
+        <section className="py-16 sm:py-20 lg:py-28">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 sm:mb-16">
               <span className="text-xs font-semibold tracking-[0.15em] text-accent uppercase block mb-2">
                 {t("home.professionistiTitle")}
               </span>
-              <h2 className="text-3xl lg:text-4xl font-serif text-heading">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif text-heading">
                 {t("home.professionistiSubtitle")}
               </h2>
               <div className="w-12 h-0.5 bg-accent mx-auto mt-4" />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
               {professionisti.map((p) => (
                 <ProfessionistaCard
                   key={p.slug}
@@ -186,16 +186,16 @@ export default async function HomePage({ params }: Props) {
       </ScrollReveal>
 
       <ScrollReveal>
-        <section id="contatti" className="py-20 lg:py-28 bg-primary text-white">
+        <section id="contatti" className="py-16 sm:py-20 lg:py-28 bg-primary text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
               <div className="lg:order-2">
-                <h2 className="text-3xl lg:text-4xl font-serif text-accent mb-12">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif text-accent mb-8 sm:mb-12">
                   {t("home.contattiTitle")}
                 </h2>
                 <ContactForm dark />
               </div>
-              <div className="lg:order-1 mt-10 lg:mt-0">
+              <div className="lg:order-1 mt-8 sm:mt-10 lg:mt-0">
                 <SectionImage src="/images/home-contatti.jpg" alt="Contattaci" />
               </div>
             </div>

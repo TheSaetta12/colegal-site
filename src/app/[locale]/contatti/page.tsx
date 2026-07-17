@@ -29,9 +29,9 @@ export default async function ContattiPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="py-16 lg:py-20">
+      <section className="py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 sm:gap-10 lg:gap-12 items-start">
             <div className="lg:col-span-2 space-y-6">
               <div>
                 <h2 className="text-2xl font-serif font-bold text-heading mb-3">
@@ -73,7 +73,7 @@ export default async function ContattiPage({ params }: Props) {
                 </div>
               </div>
             </div>
-            <div className="lg:col-span-3 relative min-h-[500px] lg:min-h-[600px] rounded overflow-hidden shadow-lg">
+              <div className="lg:col-span-3 relative min-h-[400px] sm:min-h-[500px] lg:min-h-[600px] rounded overflow-hidden shadow-lg">
               <Image
                 src="/images/contatti-form-bg.jpg"
                 alt=""
@@ -81,8 +81,8 @@ export default async function ContattiPage({ params }: Props) {
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40" />
-              <div className="relative z-10 p-8 lg:p-14 h-full flex flex-col justify-center">
-                <h3 className="text-white text-xl font-serif font-bold mb-6 lg:mb-8">
+              <div className="relative z-10 p-6 sm:p-8 lg:p-14 h-full flex flex-col justify-center">
+                <h3 className="text-white text-lg sm:text-xl font-serif font-bold mb-6 lg:mb-8">
                   {t("home.contattiTitle")}
                 </h3>
                 <ContactForm dark />

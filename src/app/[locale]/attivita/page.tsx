@@ -57,7 +57,7 @@ export default async function AttivitaPage({ params }: Props) {
       {ambitiSections.map((a, i) => {
         const section = t.raw(`attivita.${a.key}`);
         return (
-          <section key={a.id} id={a.id} className={`py-16 lg:py-20 ${i % 2 === 0 ? "bg-main" : "bg-light-bg"}`}>
+          <section key={a.id} id={a.id} className={`py-12 sm:py-16 lg:py-20 ${i % 2 === 0 ? "bg-main" : "bg-light-bg"}`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="max-w-4xl">
                 <h2 className="text-2xl lg:text-3xl font-serif font-bold text-heading mb-6">
@@ -97,10 +97,10 @@ export default async function AttivitaPage({ params }: Props) {
         );
       })}
 
-      <section className="py-16 lg:py-20 bg-primary">
+      <section className="py-12 sm:py-16 lg:py-20 bg-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <div className="relative h-72 lg:h-[500px] rounded overflow-hidden shadow-lg">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-center">
+            <div className="relative h-56 sm:h-72 lg:h-[500px] rounded overflow-hidden shadow-lg">
               <Image
                 src="/images/attivita-section.jpg"
                 alt=""
@@ -109,7 +109,7 @@ export default async function AttivitaPage({ params }: Props) {
               />
             </div>
             <div>
-              <h2 className="text-2xl lg:text-3xl font-serif font-bold text-white mb-10">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold text-white mb-6 sm:mb-10">
                 {t("home.contattiTitle")}
               </h2>
               <ContactForm />
