@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
+import FloatingButton from "@/components/FloatingButton";
 
 type Props = {
   children: React.ReactNode;
@@ -40,6 +41,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <main className="flex-1">{children}</main>
       <Footer />
       <CookieBanner />
+      <FloatingButton />
     </NextIntlClientProvider>
   );
 }

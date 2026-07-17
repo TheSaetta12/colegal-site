@@ -5,6 +5,7 @@ type ProfessionistaCardProps = {
   name: string;
   competenze: string;
   slug: string;
+  cta?: string;
 };
 
 const imageMap: Record<string, string> = {
@@ -13,7 +14,7 @@ const imageMap: Record<string, string> = {
   "ascanio-ruschi": "/images/avv-ascanio-ruschi.jpg",
 };
 
-export default function ProfessionistaCard({ name, competenze, slug }: ProfessionistaCardProps) {
+export default function ProfessionistaCard({ name, competenze, slug, cta = "Approfondisci" }: ProfessionistaCardProps) {
   const imgSrc = imageMap[slug];
 
   return (
@@ -23,11 +24,11 @@ export default function ProfessionistaCard({ name, competenze, slug }: Professio
           src={imgSrc}
           alt={name}
           fill
-          className="object-cover"
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, 33vw"
         />
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent h-1/2" />
-        <div className="absolute bottom-0 left-0 right-0 px-4 py-4 text-left">
+        <div className="absolute bottom-0 left-0 right-0 px-4 py-4 text-left translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
           <h3 className="text-white text-lg font-serif font-bold leading-tight">{name}</h3>
         </div>
       </div>
@@ -37,7 +38,7 @@ export default function ProfessionistaCard({ name, competenze, slug }: Professio
         href={`/professionisti/${slug}`}
         className="inline-block text-xs font-semibold tracking-widest text-accent hover:text-accent-light transition uppercase"
       >
-        Approfondisci
+        {cta}
       </Link>
     </div>
   );

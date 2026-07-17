@@ -111,17 +111,65 @@
     },
     "orsola": {
       "name": "Avv. Orsola Papasogli Tacca",
-      "role": "Avvocato",
+      "role": "Avvocata",
       "competenze": "Aree di competenza: • Diritto di Impresa e Commerciale • Diritto della Proprietà Industriale e della Proprietà Intellettuale • Diritto Immobiliare e delle Costruzioni • Enti del Terzo Settore • Privacy",
-      "bio": "Iscritta all'Ordine degli Avvocati di Firenze. Specializzata in diritto d'impresa, proprietà intellettuale e enti del terzo settore.",
-      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare e delle Costruzioni", "Enti del Terzo Settore", "Privacy"]
+      "bio": "Iscritta all'Ordine degli Avvocati di Firenze dal 2010. Specializzata in diritto d'impresa, proprietà intellettuale e enti del terzo settore.",
+      "lingue": "Lingue: italiano, inglese e francese.",
+      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare e delle Costruzioni", "Enti del Terzo Settore", "Privacy"],
+      "areeDettaglio": [
+        {
+          "titolo": "Diritto di Impresa e Commerciale",
+          "descrizione": "Negoziazione e redazione contrattualistica di impresa, contratti di collaborazione e sviluppo commerciale. Focus: contratti di cessione e affitto di azienda, rent to buy di azienda, locazioni commerciali o alberghiere, contratti di appalto di beni e di servizi, contratti di agenzia, contratti di sponsorizzazione, contratti di shop sharing, due diligence legale."
+        },
+        {
+          "titolo": "Diritto della Proprietà Industriale e della Proprietà Intellettuale",
+          "descrizione": "Valorizzazione e tutela dei diritti di proprietà intellettuale ed industriale. Focus: contratti di cessione e/o licenza di diritti di proprietà industriale ed intellettuale, contratti di riservatezza, assistenza dei clienti nei procedimenti amministrativi e contenziosi per la tutela dei diritti di proprietà industriale e intellettuale; predisposizione e presentazione di istanze di tutela in ambito doganale (ISTANZE AFA) aventi ad oggetto la lotta alla contraffazione di marchi e brevetti; deposito e rinnovo di marchi a livello nazionale, europeo ed internazionale."
+        },
+        {
+          "titolo": "Diritto Immobiliare e delle Costruzioni",
+          "descrizione": "Acquisizione e gestione proprietà immobiliari. Focus: contratti di compravendita, contratti di locazione, rent to buy di immobili, contratti di appalti di opere, costituzione e modificazione di servitù prediali."
+        },
+        {
+          "titolo": "Enti del Terzo Settore",
+          "descrizione": "Adeguamento dell'ente alle disposizioni del nuovo Codice del terzo settore (Decreto Legislativo 3 luglio 2017 n. 117). Focus: adeguamenti statutari."
+        },
+        {
+          "titolo": "Privacy",
+          "descrizione": "Adempimenti previsti dal D. Lgs. 196/03 e Regolamento generale per la protezione dei dati personali (UE) 2016/679 del Parlamento Europeo e del Consiglio del 27 aprile 2016."
+        }
+      ],
+      "settori": ["agricolo e vitivinicolo", "certificazione impianti e attrezzature", "comunicazione e pubbliche relazioni", "edilizia", "moda", "no profit", "produzione di materie prime per la chimica edile"]
     },
     "ascanio": {
       "name": "Avv. Ascanio Ruschi",
       "role": "Avvocato",
       "competenze": "Aree di competenza: • Diritto di Impresa e Commerciale • Diritto della Proprietà Industriale e della Proprietà Intellettuale • Diritto Immobiliare • Enti del Terzo Settore • Diritto vitivinicolo",
-      "bio": "Iscritto all'Ordine degli Avvocati di Firenze. Specializzato in diritto d'impresa, proprietà intellettuale e diritto vitivinicolo.",
-      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare", "Enti del Terzo Settore", "Diritto vitivinicolo"]
+      "bio": "Iscritto all'Ordine degli Avvocati di Firenze dal 2009. Ha conseguito il Master in Diritto dei Contratti Internazionali presso Il Sole24ore. Ha frequentato il Corso di perfezionamento in Diritto Vitivinicolo presso l'Università di Firenze.",
+      "lingue": "Lingue: italiano e inglese.",
+      "aree": ["Diritto di Impresa e Commerciale", "Diritto della Proprietà Industriale e della Proprietà Intellettuale", "Diritto Immobiliare", "Enti del Terzo Settore", "Diritto vitivinicolo"],
+      "areeDettaglio": [
+        {
+          "titolo": "Diritto di Impresa e Commerciale",
+          "descrizione": "Negoziazione e redazione contrattualistica di impresa, contratti di collaborazione e sviluppo commerciale. Focus: contratti di cessione e affitto di azienda, rent to buy di azienda, locazioni commerciali o alberghiere, contratti di appalto di beni e di servizi, contratti di agenzia, contratti di sponsorizzazione, contratti di shop sharing."
+        },
+        {
+          "titolo": "Diritto della Proprietà Industriale e della Proprietà Intellettuale",
+          "descrizione": "Valorizzazione e tutela dei diritti di proprietà intellettuale ed industriale. Focus: contratti di cessione e/o licenza di diritti di proprietà industriale ed intellettuale, contratti di riservatezza, assistenza dei clienti nei procedimenti amministrativi e contenziosi per la tutela dei diritti di proprietà industriale e intellettuale; predisposizione e presentazione di istanze di tutela in ambito doganale (ISTANZE AFA) aventi ad oggetto la lotta alla contraffazione di marchi e brevetti; deposito e rinnovo di marchi a livello nazionale, europeo ed internazionale."
+        },
+        {
+          "titolo": "Diritto Immobiliare",
+          "descrizione": "Acquisizione e gestione di proprietà immobiliari. Due diligence immobiliare e verifica della commerciabilità dell'immobile. Negoziazione del contratto di compravendita. Focus: contratti di compravendita, contratti di locazione, rent to buy di immobili, contratti di appalti di opere, costituzione e modificazione di servitù prediali."
+        },
+        {
+          "titolo": "Enti del Terzo Settore",
+          "descrizione": "Adeguamento dell'ente alle disposizioni del nuovo Codice del terzo settore (Decreto Legislativo 3 luglio 2017 n. 117). Focus: adeguamenti statutari."
+        },
+        {
+          "titolo": "Diritto vitivinicolo",
+          "descrizione": ""
+        }
+      ],
+      "settori": ["agricolo e vitivinicolo", "comunicazione e pubbliche relazioni", "informatica", "organizzazione eventi", "moda", "no profit"]
     }
   },
   "studio": {

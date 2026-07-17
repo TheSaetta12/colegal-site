@@ -9,9 +9,9 @@ export default function AmbitoCard({ title, href }: AmbitoCardProps) {
   return (
     <Link
       href={href}
-      className="block bg-[#111] text-white px-6 py-10 hover:bg-primary-light transition text-center"
+      className="block text-sm font-semibold tracking-wide uppercase text-heading hover:text-accent transition-colors py-2.5 border-b border-border/60 hover:border-accent"
     >
-      <span className="text-sm font-semibold tracking-wide uppercase">{title}</span>
+      {title}
     </Link>
   );
 }

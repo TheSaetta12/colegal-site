@@ -18,11 +18,25 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           <div>
             <img src="/images/logo-white.png" alt="Studio CoLegal" className="h-10 w-auto mb-5" />
-            <p className="text-sm text-white/60 mb-1">{t("header.indirizzo")}</p>
-            <p className="text-sm text-white/60 mb-1">{t("header.telefono")}</p>
-            <a href="mailto:info@studiocolegal.it" className="text-sm text-accent hover:underline">
-              {t("header.email")}
-            </a>
+            <div className="flex items-start gap-2 mb-1">
+              <svg className="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+              </svg>
+              <p className="text-sm text-white/60">{t("header.indirizzo")}</p>
+            </div>
+            <div className="flex items-start gap-2 mb-1">
+              <svg className="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.143 15 12.75 15 1.464 0 2.862-.263 4.156-.747M6.75 6.75c0-2.49 1.061-4.5 3.75-4.5 2.689 0 3.75 2.01 3.75 4.5m-7.5 0h7.5M3 6.75c0 8.284 6.143 15 12.75 15 1.464 0 2.862-.263 4.156-.747" />
+              </svg>
+              <p className="text-sm text-white/60">{t("header.telefono")}</p>
+            </div>
+            <div className="flex items-start gap-2 mb-1">
+              <svg className="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>
+              <a href="mailto:info@studiocolegal.it" className="text-sm text-accent hover:underline">{t("header.email")}</a>
+            </div>
             <p className="text-xs text-white/40 mt-4 mb-3">{t("footer.seguici")}</p>
             <div className="flex gap-1">
               <a href="#" className="w-8 h-8 flex items-center justify-center bg-accent text-white hover:bg-accent-light transition" aria-label="Facebook">
@@ -52,8 +66,8 @@ export default function Footer() {
           <div>
             <h4 className="text-xs font-semibold tracking-widest text-white/40 uppercase mb-5">{t("footer.links")}</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-xs text-white/60 hover:text-accent transition">{t("footer.privacy")}</a></li>
-              <li><a href="#" className="text-xs text-white/60 hover:text-accent transition">{t("footer.cookie")}</a></li>
+              <li><Link href="/privacy-policy" className="text-xs text-white/60 hover:text-accent transition">{t("footer.privacy")}</Link></li>
+              <li><Link href="/cookie-policy-ue" className="text-xs text-white/60 hover:text-accent transition">{t("footer.cookie")}</Link></li>
             </ul>
           </div>
 

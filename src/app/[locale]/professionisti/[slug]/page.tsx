@@ -38,6 +38,7 @@ export default async function ProfessionistaPage({ params }: Props) {
   const messages = allMessages[locale as keyof typeof allMessages] as any;
   const areeDettaglio: { titolo: string; descrizione: string }[] | undefined = messages.professionisti[key]?.areeDettaglio;
   const settori: string[] | undefined = messages.professionisti[key]?.settori;
+  const lingue: string | undefined = messages.professionisti[key]?.lingue;
   const aree: string[] = messages.professionisti[key].aree;
 
   return (
@@ -114,6 +115,14 @@ export default async function ProfessionistaPage({ params }: Props) {
                 </ul>
               )}
             </div>
+
+            {lingue && (
+              <div>
+                <p className="text-sm text-body/70 italic">
+                  {lingue}
+                </p>
+              </div>
+            )}
 
             {settori && (
               <div>

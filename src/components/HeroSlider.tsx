@@ -1,76 +1,78 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useTranslations } from "next-intl";
 
-const slides = [
-  { titleKey: "hero.title" as const, subtitleKey: "hero.subtitle" as const },
-];
-
 export default function HeroSlider() {
-  const t = useTranslations();
+  const t = useTranslations("hero");
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % 2);
-    }, 4000);
-    return () => clearInterval(interval);
+  const nextSlide = useCallback(() => {
+    setCurrentSlide((prev) => (prev + 1) % 2);
   }, []);
 
-  const titles = [
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 5000);
+    return () => clearInterval(interval);
+  }, [nextSlide]);
+
+  const slides = [
     { super: "STUDIO LEGALE", main: "COLEGAL" },
-    { super: "CORPORATE LAW", main: "COMPETENZA E COLLABORAZIONE\nIN UNA PAROLA, COLEGAL" },
+    { super: "CORPORATE LAW", main: "COMPETENZA E COLLABORAZIONE IN UNA PAROLA, COLEGAL" },
   ];
 
   return (
-    <section className="relative bg-primary min-h-[90vh] flex items-center overflow-hidden">
-      <div className="absolute inset-0 bg-black/50 z-10" />
+    <section className="relative bg-primary min-h-[90vh] flex items-center overflow-hidden" aria-label="Hero">
+      <div className="absolute inset-0 bg-black/55 z-10" />
       <div
-        className="absolute inset-0 transition-all duration-700"
+        className="absolute inset-0 transition-all duration-1000"
         style={{
-          background: `url('/images/hero-bg.jpg') center top/cover no-repeat`,
+          background: `url('/images/hero-bg.jpg') center 30%/cover no-repeat`,
         }}
       />
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-32 lg:py-40">
-        {titles.map((slide, i) => (
-          <div
-            key={i}
-            className={`transition-all duration-700 ${
-              i === currentSlide
-                ? "opacity-100 visible"
-                : "opacity-0 invisible absolute top-1/2 -translate-y-1/2"
-            }`}
-          >
-            <div className="max-w-3xl">
-              {slide.super && (
-                <div className="text-accent text-sm lg:text-base font-semibold tracking-[0.15em] uppercase mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
-                  {slide.super}
-                </div>
-              )}
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-serif text-white leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
-                {slide.main}
-              </h1>
+        <div className="relative min-h-[20rem]">
+          {slides.map((slide, i) => (
+            <div
+              key={i}
+              className={`transition-all duration-700 ${
+                i === currentSlide
+                  ? "opacity-100 visible relative"
+                  : "opacity-0 invisible absolute inset-0"
+              }`}
+              aria-hidden={i !== currentSlide}
+            >
+              <div className="max-w-3xl">
+                {slide.super && (
+                  <div className="text-accent text-sm lg:text-base font-semibold tracking-[0.15em] uppercase mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
+                    {slide.super}
+                  </div>
+                )}
+                <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-serif text-white leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] whitespace-pre-line">
+                  {slide.main}
+                </h1>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
         <div className="mt-10 relative z-20">
           <a
             href="#about"
             className="inline-block text-accent text-xs font-semibold tracking-[0.2em] uppercase hover:text-accent-light transition border-b border-accent pb-1 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
           >
-            VIEW MORE
+            {t("cta")}
           </a>
         </div>
       </div>
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-3">
         {[0, 1].map((i) => (
           <button
             key={i}
             onClick={() => setCurrentSlide(i)}
-            className={`w-8 h-0.5 transition-all ${
-              i === currentSlide ? "bg-accent w-12" : "bg-white/40"
+            className={`h-1 transition-all duration-500 ${
+              i === currentSlide ? "bg-accent w-14" : "bg-white/30 w-8 hover:bg-white/50"
             }`}
+            aria-label={`Slide ${i + 1}`}
           />
         ))}
       </div>
