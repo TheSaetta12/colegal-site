@@ -27,7 +27,7 @@ export default function HeroSlider() {
       <div
         className="absolute inset-0 transition-all duration-1000"
         style={{
-          background: `url('/images/hero-bg.jpg') center 30%/cover no-repeat`,
+          background: `url('/images/hero-bg.jpg') center top/cover no-repeat`,
         }}
       />
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-32 lg:py-40">

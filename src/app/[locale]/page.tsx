@@ -118,7 +118,12 @@ export default async function HomePage({ params }: Props) {
                 <CtaButton href="/contatti">{t("home.studioCta")}</CtaButton>
               </div>
               <div className="mt-10 lg:mt-0">
-                <SectionImage src="/images/home-studio.jpg" alt="Studio Legale CoLegal" priority />
+                <div
+                  className="w-full min-h-[28rem] lg:min-h-[32rem] bg-cover bg-center"
+                  style={{ backgroundImage: "url('/images/home-studio.jpg')" }}
+                  role="img"
+                  aria-label="Studio Legale CoLegal"
+                />
               </div>
             </div>
           </div>
@@ -184,8 +189,7 @@ export default async function HomePage({ params }: Props) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
               <div className="lg:order-2">
-                <SectionHeading>{t("home.contattiTitle")}</SectionHeading>
-                <h2 className="text-3xl lg:text-4xl font-serif mb-12">
+                <h2 className="text-3xl lg:text-4xl font-serif text-accent mb-12">
                   {t("home.contattiTitle")}
                 </h2>
                 <ContactForm dark />
